@@ -1,2 +1,2 @@
-# sigo
-Projeto de conclusão da pós-graduação em Arquitetura de Software Distribuído
+# SIGO (Sistema Integrado de Gestão e Operação)
+Projeto resultado da especialização em Arquitetura de Software Distribuído
