@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIGO.WebSite", "SIGO.WebSite\SIGO.WebSite.csproj", "{EE4AACBD-8274-4312-87C1-EAE4E9519956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIGO.Normas", "SIGO.Normas\SIGO.Normas.csproj", "{44F0BC06-7495-43E6-A92B-F957E9CA2A03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modulos", "Modulos", "{F925479D-928E-4BD4-AC90-B568E5534886}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE4AACBD-8274-4312-87C1-EAE4E9519956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4AACBD-8274-4312-87C1-EAE4E9519956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4AACBD-8274-4312-87C1-EAE4E9519956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4AACBD-8274-4312-87C1-EAE4E9519956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F0BC06-7495-43E6-A92B-F957E9CA2A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F0BC06-7495-43E6-A92B-F957E9CA2A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F0BC06-7495-43E6-A92B-F957E9CA2A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F0BC06-7495-43E6-A92B-F957E9CA2A03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44F0BC06-7495-43E6-A92B-F957E9CA2A03} = {F925479D-928E-4BD4-AC90-B568E5534886}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21D6605-7417-40B3-95AA-CDF545D37945}
+	EndGlobalSection
+EndGlobal
