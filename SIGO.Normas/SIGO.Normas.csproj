@@ -11,5 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SIGO.Domain\SIGO.Domain.csproj" />
+  </ItemGroup>
+
 
 </Project>

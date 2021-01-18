@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using SIGO.Domain.Normas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,16 +10,16 @@ namespace SIGO.Normas.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class NormaController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<NormaController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public NormaController(ILogger<NormaController> logger)
         {
             _logger = logger;
         }
