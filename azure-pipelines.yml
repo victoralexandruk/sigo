@@ -27,7 +27,7 @@ stages:
     #     args: '$(GITHUB_URL_WITH_TOKEN) SIGO.Normas/Dockerfile sigo/normas:dev sigo_normas'
     #     readyTimeout: '20000'
     - task: SSH@0
-      displayName: Docker Build SIGO.Normas
+      displayName: Docker Build
       inputs:
         sshEndpoint: 'VM BlueLake'
         runOptions: 'script'
