@@ -6,7 +6,7 @@ services:
     restart : always
     # maps config file into the proxy container
     volumes:
-      - ./node-proxy/default.conf:/etc/nginx/conf.d/default.conf
+      - ./node-proxy.conf:/etc/nginx/conf.d/default.conf
     ports:
       - 80:80
     links:
