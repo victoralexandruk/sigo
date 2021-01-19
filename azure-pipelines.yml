@@ -1,0 +1,18 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: SSH@0
+  inputs:
+    sshEndpoint: 'VM BlueLake'
+    runOptions: 'commands'
+    commands: 'docker build https://victoralexandruk:85e2b01f2b23bbb2fb5c47ef266d03cf1a8c0408@github.com/victoralexandruk/sigo.git#main:SIGO.Normas -t sigo/normas:dev'
+    readyTimeout: '20000'
