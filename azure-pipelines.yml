@@ -57,7 +57,9 @@ stages:
     - task: CopyFilesOverSSH@0
       inputs:
         sshEndpoint: 'VM BlueLake'
-        contents: 'docker-compose.yml'
+        contents: |
+          node-proxy/**
+          docker-compose.yml
         readyTimeout: '20000'
     - task: SSH@0
       displayName: Docker compose
