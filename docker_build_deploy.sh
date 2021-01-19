@@ -2,10 +2,11 @@
 
 echo "Docker build and deploy"
 
-DOCKERFILE_PATH=$1
-IMAGE_NAME=$2
-CONTAINER_NAME=$3
+GITHUB_URL_WITH_TOKEN=$1
+DOCKERFILE_PATH=$2
+IMAGE_NAME=$3
+CONTAINER_NAME=$4
 
-echo "docker build -f $DOCKERFILE_PATH $GITHUB_URL_WITH_TOKEN -t $IMAGE_NAME"
-echo "docker stop $CONTAINER_NAME || true && docker rm $CONTAINER_NAME || true"
-echo "docker run --name $CONTAINER_NAME -d -p 52001:443 $IMAGE_NAME"
+docker build -f $DOCKERFILE_PATH $GITHUB_URL_WITH_TOKEN -t $IMAGE_NAME
+docker stop $CONTAINER_NAME || true && docker rm $CONTAINER_NAME || true
+docker run --name $CONTAINER_NAME -d -p 52001:443 $IMAGE_NAME
