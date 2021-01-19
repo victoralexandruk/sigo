@@ -51,7 +51,7 @@ stages:
       inputs:
         sshEndpoint: 'VM BlueLake'
         runOptions: 'commands'
-        commands: 'docker-compose down'
+        commands: 'docker-compose down || true'
         readyTimeout: '20000'
     - task: CopyFilesOverSSH@0
       inputs:
