@@ -31,6 +31,13 @@ stages:
     #     scriptPath: 'docker_build_deploy.sh'
     #     args: '$(GITHUB_URL_WITH_TOKEN) SIGO.Normas/Dockerfile sigo/normas:dev sigo_normas'
     #     readyTimeout: '20000'
+    - task: SSH@0
+      displayName: Docker Build SIGO.Normas
+      inputs:
+        sshEndpoint: 'VM BlueLake'
+        runOptions: 'commands'
+        commands: 'docker build -f SIGO.Normas/Dockerfile $(GITHUB_URL_WITH_TOKEN) -t sigo/normas:dev'
+        readyTimeout: '20000'
     - task: CopyFilesOverSSH@0
       inputs:
         sshEndpoint: 'VM BlueLake'
