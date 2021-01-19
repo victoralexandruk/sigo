@@ -6,13 +6,49 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'ubuntu-latest'
+variables:
+  # Agent VM image name
+  vmImageName: 'ubuntu-latest'
 
-steps:
-- task: SSH@0
-  inputs:
-    sshEndpoint: 'VM BlueLake'
-    runOptions: 'commands'
-    commands: 'docker build -f SIGO.Normas/Dockerfile https://victoralexandruk:85e2b01f2b23bbb2fb5c47ef266d03cf1a8c0408@github.com/victoralexandruk/sigo.git#main -t sigo/normas:dev'
-    readyTimeout: '20000'
+stages:
+- stage: Build
+  displayName: Build stage
+  jobs:  
+  - job: Build
+    displayName: Build
+    pool:
+      vmImage: $(vmImageName)
+    steps:
+    - task: SSH@0
+      displayName: SIGO.Normas
+      inputs:
+        sshEndpoint: 'VM BlueLake'
+        runOptions: 'commands'
+        commands: |
+          docker build -f SIGO.Normas/Dockerfile https://victoralexandruk:85e2b01f2b23bbb2fb5c47ef266d03cf1a8c0408@github.com/victoralexandruk/sigo.git#main -t sigo/normas:dev
+          docker run -d -p 52001:443 sigo/normas:dev
+        readyTimeout: '20000'
+      
+
+# - stage: Deploy
+#   displayName: Deploy stage
+#   dependsOn: Build
+#   condition: succeeded()
+#   jobs:
+#   - deployment: Deploy
+#     displayName: Deploy
+#     pool: 
+#       vmImage: $(vmImageName)
+#     strategy:
+#       runOnce:
+#         deploy:
+#           steps:            
+#           - task: AzureWebApp@1
+#             displayName: 'Azure Web App Deploy: egpnode'
+#             inputs:
+#               azureSubscription: $(azureSubscription)
+#               appType: webAppLinux
+#               appName: $(webAppName)
+#               runtimeStack: 'NODE|10.10'
+#               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
+#               startUpCommand: 'npm run start'
