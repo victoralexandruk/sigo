@@ -65,4 +65,5 @@ stages:
         sshEndpoint: 'VM BlueLake'
         runOptions: 'commands'
         commands: 'docker-compose up -d'
+        failOnStdErr: false
         readyTimeout: '20000'
