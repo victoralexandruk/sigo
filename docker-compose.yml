@@ -17,6 +17,8 @@ services:
   sigo_normas:
     image: sigo/normas:dev
     #restart: always
+    environment:
+    - ASPNETCORE_ENVIRONMENT=Development
 
   sigo_website:
     image: sigo/website:dev
