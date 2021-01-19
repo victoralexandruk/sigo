@@ -1,6 +1,22 @@
 version: "3"
 services:
-    web:
-      image: sigo/normas:dev
-      ports:
-        - "80:80"
+  # reverse proxy
+  node-proxy:
+    image: nginx
+    restart : always
+    # maps config file into the proxy container
+    volumes:
+      - ./node-proxy/default.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - 80:80
+    links:
+      - sigo_normas
+      - sigo_website
+
+  sigo_normas:
+    image: sigo/normas:dev
+    restart: always
+
+  sigo_website:
+    image: sigo/website:dev
+    restart: always
