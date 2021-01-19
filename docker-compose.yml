@@ -9,6 +9,7 @@ services:
       - ./node-proxy.conf:/etc/nginx/conf.d/default.conf
     ports:
       - 80:80
+      - 443:443
     links:
       - sigo_normas
       - sigo_website
