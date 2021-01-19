@@ -1,6 +1,6 @@
 version: "3"
 services:
     web:
-      build: ./SIGO.Normas
+      image: sigo/normas:dev
       ports:
         - "80:80"
