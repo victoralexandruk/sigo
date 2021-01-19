@@ -25,8 +25,9 @@ stages:
         sshEndpoint: 'VM BlueLake'
         runOptions: 'commands'
         commands: |
-          docker build -f SIGO.Normas/Dockerfile https://victoralexandruk:85e2b01f2b23bbb2fb5c47ef266d03cf1a8c0408@github.com/victoralexandruk/sigo.git#main -t sigo/normas:dev
-          docker run -d -p 52001:443 sigo/normas:dev
+          docker build -f SIGO.Normas/Dockerfile $(GITHUB_URL_WITH_TOKEN) -t sigo/normas:dev
+          docker stop sigo_normas || true && docker rm sigo_normas || true
+          docker run --name sigo_normas -d -p 52001:443 sigo/normas:dev
         readyTimeout: '20000'
       
 
