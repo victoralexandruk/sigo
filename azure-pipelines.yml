@@ -3,8 +3,12 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
-- main
+# specific path build
+# trigger:
+#   batch: true
+#   branches:
+#     include:
+#     - master
 
 variables:
   # Agent VM image name
@@ -19,13 +23,25 @@ stages:
     pool:
       vmImage: $(vmImageName)
     steps:
+    # - task: SSH@0
+    #   displayName: SIGO.Normas
+    #   inputs:
+    #     sshEndpoint: 'VM BlueLake'
+    #     runOptions: 'script'
+    #     scriptPath: 'docker_build_deploy.sh'
+    #     args: '$(GITHUB_URL_WITH_TOKEN) SIGO.Normas/Dockerfile sigo/normas:dev sigo_normas'
+    #     readyTimeout: '20000'
+    - task: CopyFilesOverSSH@0
+      inputs:
+        sshEndpoint: 'VM BlueLake'
+        contents: 'docker-compose.yml'
+        readyTimeout: '20000'
     - task: SSH@0
       displayName: SIGO.Normas
       inputs:
         sshEndpoint: 'VM BlueLake'
-        runOptions: 'script'
-        scriptPath: 'docker_build_deploy.sh'
-        args: '$(GITHUB_URL_WITH_TOKEN) SIGO.Normas/Dockerfile sigo/normas:dev sigo_normas'
+        runOptions: 'commands'
+        commands: 'docker-compose up'
         readyTimeout: '20000'
       
 
