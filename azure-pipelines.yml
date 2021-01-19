@@ -25,7 +25,7 @@ stages:
         sshEndpoint: 'VM BlueLake'
         runOptions: 'script'
         scriptPath: 'docker_build_deploy.sh'
-        args: 'SIGO.Normas/Dockerfile sigo/normas:dev sigo_normas'
+        args: '$(GITHUB_URL_WITH_TOKEN) SIGO.Normas/Dockerfile sigo/normas:dev sigo_normas'
         readyTimeout: '20000'
       
 
