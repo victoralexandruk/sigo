@@ -1,9 +1,10 @@
 # specific path build
-trigger:
-  batch: true
-  branches:
-    include:
-    - main
+trigger: none
+# trigger:
+#   batch: true
+#   branches:
+#     include:
+#     - main
 
 variables:
   # Agent VM image name
