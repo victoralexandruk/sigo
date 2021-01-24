@@ -25,4 +25,4 @@ services:
     #restart: always
     environment:
     - ASPNETCORE_ENVIRONMENT=Development
-    - PathBase=/sigo_website
+    - PathBase=/sigo/website
