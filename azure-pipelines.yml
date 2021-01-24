@@ -78,6 +78,6 @@ stages:
       inputs:
         sshEndpoint: 'VM BlueLake'
         runOptions: 'commands'
-        commands: 'docker-compose --env-file ./docker-compose.env up -d'
+        commands: 'docker-compose up -d'
         failOnStdErr: false
         readyTimeout: '20000'
