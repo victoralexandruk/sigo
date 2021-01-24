@@ -19,7 +19,6 @@ services:
     #restart: always
     environment:
     - ASPNETCORE_ENVIRONMENT=Development
-    - ConnectionStrings__DefaultConnection=${ConnectionStrings.DefaultConnection}
 
   sigo_website:
     image: sigo/website:dev
