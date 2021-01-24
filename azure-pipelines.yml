@@ -47,14 +47,14 @@ stages:
     pool: 
       vmImage: $(vmImageName)
     steps:
-    - task: SSH@0
-      displayName: Docker compose
-      inputs:
-        sshEndpoint: 'VM BlueLake'
-        runOptions: 'commands'
-        commands: 'docker-compose down'
-        failOnStdErr: false
-        readyTimeout: '20000'
+    # - task: SSH@0
+    #   displayName: Docker compose
+    #   inputs:
+    #     sshEndpoint: 'VM BlueLake'
+    #     runOptions: 'commands'
+    #     commands: 'docker-compose down'
+    #     failOnStdErr: false
+    #     readyTimeout: '20000'
     - task: Bash@3
       displayName: Create docker-compose.env
       inputs:
