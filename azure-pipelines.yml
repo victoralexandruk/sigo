@@ -55,18 +55,29 @@ stages:
         commands: 'docker-compose down'
         failOnStdErr: false
         readyTimeout: '20000'
+    - task: Bash@3
+      displayName: Create docker-compose.env
+      inputs:
+        targetType: 'inline'
+        script: |
+          # create docker-compose.env
+          
+          cat > docker-compose.env << 'EOL'
+          ConnectionStrings__DefaultConnection=$(ConnectionStrings.DefaultConnection)
+          EOL
     - task: CopyFilesOverSSH@0
       inputs:
         sshEndpoint: 'VM BlueLake'
         contents: |
           node-proxy.conf
           docker-compose.yml
+          docker-compose.env
         readyTimeout: '20000'
     - task: SSH@0
       displayName: Docker compose
       inputs:
         sshEndpoint: 'VM BlueLake'
         runOptions: 'commands'
-        commands: 'docker-compose up -d -e ConnectionStrings.DefaultConnection=$(ConnectionStrings.DefaultConnection)'
+        commands: 'docker-compose --env-file ./docker-compose.env up -d'
         failOnStdErr: false
         readyTimeout: '20000'
