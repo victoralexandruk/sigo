@@ -67,6 +67,6 @@ stages:
       inputs:
         sshEndpoint: 'VM BlueLake'
         runOptions: 'commands'
-        commands: 'docker-compose up -d'
+        commands: 'docker-compose up -d -e ConnectionStrings.DefaultConnection=$(ConnectionStrings.DefaultConnection)'
         failOnStdErr: false
         readyTimeout: '20000'
