@@ -29,16 +29,7 @@ namespace SIGO.WebSite
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            string pathBase = Environment.GetEnvironmentVariable("PathBase");
-            if (!string.IsNullOrWhiteSpace(pathBase))
-	        {
-                app.UsePathBase(pathBase);
-                app.Use((context, next) =>
-                {
-                    context.Request.PathBase = pathBase;
-                    return next();
-                });
-            }
+            app.UseEnvironmentPathBase();
 
             if (env.IsDevelopment())
             {

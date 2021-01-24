@@ -33,6 +33,8 @@ namespace SIGO.Normas
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseEnvironmentPathBase();
+
             NormaRepository.ConfigureDB(Configuration);
 
             if (env.IsDevelopment())

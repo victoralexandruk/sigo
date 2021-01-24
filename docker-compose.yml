@@ -20,6 +20,7 @@ services:
     env_file: ./docker-compose.env
     environment:
     - ASPNETCORE_ENVIRONMENT=Development
+    - PathBase=/sigo/normas
 
   sigo_website:
     image: sigo/website:dev
