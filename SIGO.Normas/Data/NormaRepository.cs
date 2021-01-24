@@ -16,7 +16,7 @@ namespace SIGO.Normas.Data
     {
         public static void ConfigureDB(IConfiguration configuration)
         {
-            using (SqlConnection db = new SqlConnection(configuration.GetConnectionString("DefaultConnection")))
+            using (SqlConnection db = new SqlConnection(configuration.GetConnectionString("NormasConnection")))
             {
                 BaseRepository.CreateTableIfNotExists<Norma>(db, "Norma", "normas_seed.json");
             }
@@ -31,7 +31,7 @@ namespace SIGO.Normas.Data
 
         public IEnumerable<Norma> GetAll()
         {
-            using (SqlConnection db = new SqlConnection(_config.GetConnectionString("DefaultConnection")))
+            using (SqlConnection db = new SqlConnection(_config.GetConnectionString("NormasConnection")))
             {
                 return db.Query<Norma>("SELECT * FROM Norma");
             }
