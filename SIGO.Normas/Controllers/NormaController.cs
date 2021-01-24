@@ -22,7 +22,7 @@ namespace SIGO.Normas.Controllers
         [HttpGet]
         public IEnumerable<Norma> Get()
         {
-            return _normaRepository.Get();
+            return _normaRepository.GetAll();
         }
     }
 }

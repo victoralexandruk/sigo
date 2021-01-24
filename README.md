@@ -5,6 +5,7 @@ SIGO é um projeto resultado da especialização em Arquitetura de Software Dist
 Este projeto utiliza as seguintes tecnologias:
 * Docker
 * NET Core 3.1 (LTS)
+* xUnit
 * jQuery
 
 

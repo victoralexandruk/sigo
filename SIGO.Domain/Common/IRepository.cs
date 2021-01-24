@@ -4,6 +4,6 @@ namespace SIGO.Domain.Common
 {
     public interface IRepository<T>
     {
-        IEnumerable<T> Get();
+        IEnumerable<T> GetAll();
     }
 }
