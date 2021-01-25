@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace SIGO.Common
+namespace SIGO.Common.Data
 {
     public abstract class BaseRepository
     {

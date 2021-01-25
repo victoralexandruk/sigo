@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SIGO.Common
+namespace SIGO.Common.Data
 {
     class ColumnMeta
     {

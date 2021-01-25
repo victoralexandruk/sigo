@@ -1,15 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
 using Moq;
 using SIGO.Domain.Common;
 using SIGO.Domain.Normas;
 using SIGO.Normas.Controllers;
 using SIGO.Normas.Tests.Mock;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace SIGO.Normas.Tests.Unit

@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIGO.Consultorias", "SIGO.C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Consultorias", "3 - Consultorias", "{AD277957-DFC2-4C18-B78D-AB80FA434EF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIGO.Consultorias.Tests", "SIGO.Consultorias.Tests\SIGO.Consultorias.Tests.csproj", "{3E0559FD-1EDA-4B00-BDF9-5DD9A5280059}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{8E60AB9E-E398-4257-AF1A-FA4F6C1E4EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E60AB9E-E398-4257-AF1A-FA4F6C1E4EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E60AB9E-E398-4257-AF1A-FA4F6C1E4EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0559FD-1EDA-4B00-BDF9-5DD9A5280059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0559FD-1EDA-4B00-BDF9-5DD9A5280059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0559FD-1EDA-4B00-BDF9-5DD9A5280059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0559FD-1EDA-4B00-BDF9-5DD9A5280059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{202D7623-22F2-4414-B1C8-51E8905A20B3} = {3B9AEA08-FB49-4D7E-AFC3-608584ECF961}
 		{EC47C284-8156-4ABE-8F9D-865735BFB96D} = {F925479D-928E-4BD4-AC90-B568E5534886}
 		{8E60AB9E-E398-4257-AF1A-FA4F6C1E4EB5} = {AD277957-DFC2-4C18-B78D-AB80FA434EF3}
+		{3E0559FD-1EDA-4B00-BDF9-5DD9A5280059} = {AD277957-DFC2-4C18-B78D-AB80FA434EF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F21D6605-7417-40B3-95AA-CDF545D37945}

@@ -1,14 +1,10 @@
 ﻿using Dapper;
 using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json;
-using SIGO.Common;
+using SIGO.Common.Data;
 using SIGO.Domain.Common;
 using SIGO.Domain.Normas;
-using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.IO;
-using System.Linq;
 
 namespace SIGO.Normas.Data
 {
