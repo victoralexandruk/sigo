@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -7,6 +7,8 @@ namespace SIGO.Domain.Normas
     public class Norma
     {
         [Key]
+        public long Id { get; set; }
+
         [Column]
         public string Codigo { get; set; }
 
@@ -36,5 +38,7 @@ namespace SIGO.Domain.Normas
 
         [Column]
         public string CaminhoArquivo { get; set; }
+        
+        public IEnumerable<AcaoPlanejada> AcoesPlanejadas { get; set; }
     }
 }

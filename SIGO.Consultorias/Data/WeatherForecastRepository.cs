@@ -1,10 +1,10 @@
 ﻿using SIGO.Domain.Common;
-using SIGO.Domain.Normas;
+using SIGO.Domain.Consultorias;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SIGO.Normas.Data
+namespace SIGO.Consultorias.Data
 {
     public class WeatherForecastRepository : IRepository<WeatherForecast>
     {
@@ -23,6 +23,27 @@ namespace SIGO.Normas.Data
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        public WeatherForecast GetById(long id)
+        {
+            var rng = new Random();
+            return new WeatherForecast
+            {
+                Date = DateTime.Now,
+                TemperatureC = rng.Next(-20, 55),
+                Summary = Summaries[rng.Next(Summaries.Length)]
+            };
+        }
+
+        public void Save(WeatherForecast model)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<WeatherForecast> Search(IDictionary<string, object> where, bool strict = true)
+        {
+            throw new NotImplementedException();
         }
     }
 }

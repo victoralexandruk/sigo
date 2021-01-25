@@ -1,6 +1,6 @@
 using System;
 
-namespace SIGO.Domain.Normas
+namespace SIGO.Domain.Consultorias
 {
     public class WeatherForecast
     {

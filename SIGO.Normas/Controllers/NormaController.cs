@@ -19,10 +19,35 @@ namespace SIGO.Normas.Controllers
             _normaRepository = normaRepository;
         }
 
+        [HttpPost]
+        public Norma Post(Norma model)
+        {
+            _normaRepository.Save(model);
+            return model;
+        }
+
         [HttpGet]
         public IEnumerable<Norma> Get()
         {
             return _normaRepository.GetAll();
+        }
+
+        [HttpGet]
+        [Route("{id}")]
+        public Norma Get(long id)
+        {
+            return _normaRepository.GetById(id);
+        }
+
+        [HttpGet]
+        [Route("search/{key}/{value}/{strict?}")]
+        public IEnumerable<Norma> Search(string key, string value, bool strict = true)
+        {
+            var where = new Dictionary<string, object>
+            {
+                { key, value }
+            };
+            return _normaRepository.Search(where, strict);
         }
     }
 }

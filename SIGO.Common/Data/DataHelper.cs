@@ -10,7 +10,7 @@ using System.Reflection;
 
 namespace SIGO.Common.Data
 {
-    public abstract class BaseRepository
+    public static class DataHelper
     {
         public static bool TableExists(IDbConnection db, string name)
         {
@@ -22,7 +22,7 @@ namespace SIGO.Common.Data
             if (!TableExists(db, table))
             {
                 var columns = GetColumns<T>();
-                var sql = $@"CREATE TABLE {table} ({string.Join(",", columns.Select(a => $"[{a.ColumnName}] {a.ColumnType}"))})";
+                var sql = $@"CREATE TABLE {table} ([Id] [bigint] IDENTITY(1,1) NOT NULL, {string.Join(",", columns.Select(a => $"[{a.ColumnName}] {a.ColumnType}"))})";
                 db.Execute(sql);
                 if (!string.IsNullOrWhiteSpace(seedFilepath) && File.Exists(seedFilepath))
                 {
@@ -33,11 +33,31 @@ namespace SIGO.Common.Data
             }
         }
 
-        public static int Insert(IDbConnection db, string table, object model)
+        public static long Insert(IDbConnection db, string table, object model)
         {
             var columns = GetColumns(model.GetType());
-            var sql = $@"INSERT INTO {table} ({string.Join(",", columns.Select(a => $"[{a.ColumnName}]"))}) VALUES ({string.Join(",", columns.Select(a => $"@{a.PropertyName}"))})";
-            return db.Execute(sql, model);
+            var sql = $"INSERT INTO {table} ({string.Join(",", columns.Select(a => $"[{a.ColumnName}]"))}) VALUES ({string.Join(",", columns.Select(a => $"@{a.PropertyName}"))}); SELECT SCOPE_IDENTITY()";
+            return db.QuerySingleOrDefault<long>(sql, model);
+        }
+
+        public static void Update(IDbConnection db, string table, object model)
+        {
+            var columns = GetColumns(model.GetType());
+            var sql = $"UPDATE {table} SET {string.Join(",", columns.Select(a => $"[{a.ColumnName}] = @{a.PropertyName}"))} WHERE Id = @Id";
+            db.Execute(sql, model);
+        }
+
+        public static IEnumerable<T> SearchByObject<T>(IDbConnection db, string table, object where, bool strict = true)
+        {
+            var json = JsonConvert.SerializeObject(where);
+            var dictionary = JsonConvert.DeserializeObject<Dictionary<string, object>>(json);
+            return Search<T>(db, table, dictionary, strict);
+        }
+
+        public static IEnumerable<T> Search<T>(IDbConnection db, string table, IDictionary<string, object> where, bool strict = true)
+        {
+            var sql = $"SELECT * FROM {table} WITH(NOLOCK) WHERE {string.Join(",", where.Select(a => strict ? $"{a.Key} = @{a.Key}" : $"{a.Key} LIKE CONCAT('%', @{a.Key}, '%')"))}";
+            return db.Query<T>(sql, where);
         }
 
         private static List<ColumnMeta> GetColumns<T>()
