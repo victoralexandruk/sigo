@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SIGO.Common.Data;
 using SIGO.Domain.Common;
 using SIGO.Domain.Normas;
 using SIGO.Normas.Data;
+using System.Data.SqlClient;
 
 namespace SIGO.Normas
 {
@@ -34,7 +36,11 @@ namespace SIGO.Normas
         {
             app.UseEnvironmentPathBase();
 
-            NormaRepository.ConfigureDB(Configuration);
+            using (var db = new SqlConnection(Configuration.GetConnectionString("NormasConnection")))
+            {
+                DataHelper.CreateTableIfNotExists<Norma>(db, "Norma", "normas_seed.json");
+                DataHelper.CreateTableIfNotExists<AcaoPlanejada>(db, "AcaoPlanejada");
+            }
 
             if (env.IsDevelopment())
             {

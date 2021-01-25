@@ -11,14 +11,6 @@ namespace SIGO.Normas.Data
 {
     public class NormaRepository : IRepository<Norma>
     {
-        public static void ConfigureDB(IConfiguration configuration)
-        {
-            using (SqlConnection db = new SqlConnection(configuration.GetConnectionString("NormasConnection")))
-            {
-                DataHelper.CreateTableIfNotExists<Norma>(db, "Norma", "normas_seed.json");
-            }
-        }
-
         private readonly string _connectionString;
 
         public NormaRepository(IConfiguration config)
@@ -38,7 +30,12 @@ namespace SIGO.Normas.Data
         {
             using (var db = new SqlConnection(_connectionString))
             {
-                return db.QueryFirstOrDefault<Norma>("SELECT * FROM Norma WITH(NOLOCK) WHERE Id = @id", new { id });
+                var norma = db.QueryFirstOrDefault<Norma>("SELECT * FROM Norma WITH(NOLOCK) WHERE Id = @id", new { id });
+                if (!string.IsNullOrEmpty(norma?.Codigo))
+                {
+                    norma.AcoesPlanejadas = db.Query<AcaoPlanejada>("SELECT * FROM AcaoPlanejada WITH(NOLOCK) WHERE CodigoNorma = @codigo", new { codigo = norma.Codigo });
+                }
+                return norma;
             }
         }
 
