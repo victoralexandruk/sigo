@@ -22,9 +22,18 @@ services:
     - ASPNETCORE_ENVIRONMENT=Development
     - PathBase=/sigo/normas
 
+  sigo_consultorias:
+    image: sigo/consultorias:dev
+    #restart: always
+    env_file: ./docker-compose.env
+    environment:
+    - ASPNETCORE_ENVIRONMENT=Development
+    - PathBase=/sigo/consultorias
+
   sigo_website:
     image: sigo/website:dev
     #restart: always
+    env_file: ./docker-compose.env
     environment:
     - ASPNETCORE_ENVIRONMENT=Development
     - PathBase=/sigo/website
