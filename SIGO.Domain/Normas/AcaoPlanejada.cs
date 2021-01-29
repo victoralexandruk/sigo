@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SIGO.Domain.Normas
@@ -13,5 +14,11 @@ namespace SIGO.Domain.Normas
 
         [Column]
         public string Descricao { get; set; }
+
+        [Column]
+        public string Responsavel { get; set; }
+
+        [Column]
+        public DateTime DataPublicacao { get; set; } = DateTime.Now;
     }
 }

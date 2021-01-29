@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SIGO.Common.Data;
 using SIGO.Consultorias.Data;
 using SIGO.Domain.Common;
 using SIGO.Domain.Consultorias;
+using System.Data.SqlClient;
 
 namespace SIGO.Consultorias
 {
@@ -21,7 +23,7 @@ namespace SIGO.Consultorias
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IRepository<WeatherForecast>, WeatherForecastRepository>();
+            services.AddTransient<IRepository<Consultoria>, ConsultoriaRepository>();
 
             services.AddControllers().AddXmlSerializerFormatters();
 
@@ -33,6 +35,11 @@ namespace SIGO.Consultorias
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseEnvironmentPathBase();
+
+            using (var db = new SqlConnection(Configuration.GetConnectionString("ConsultoriasConnection")))
+            {
+                DataHelper.CreateTableIfNotExists<Consultoria>(db, "Consultoria");
+            }
 
             if (env.IsDevelopment())
             {
