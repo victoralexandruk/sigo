@@ -7,7 +7,8 @@ using System.Collections.Generic;
 namespace SIGO.Consultorias.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [ApiVersion("1")]
+    [Route("v{version:apiVersion}/[controller]")]
     public class ConsultoriaController : ControllerBase
     {
         private readonly ILogger<ConsultoriaController> _logger;

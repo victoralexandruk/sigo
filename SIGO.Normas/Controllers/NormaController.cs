@@ -7,7 +7,8 @@ using System.Collections.Generic;
 namespace SIGO.Normas.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [ApiVersion("1")]
+    [Route("v{version:apiVersion}/[controller]")]
     public class NormaController : ControllerBase
     {
         private readonly ILogger<NormaController> _logger;

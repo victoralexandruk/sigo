@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,6 +25,27 @@ namespace SIGO.Normas
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IRepository<Norma>, NormaRepository>();
+
+            #region ApiVersion
+            // Api Versioning
+            services.AddApiVersioning(options =>
+            {
+                options.DefaultApiVersion = new ApiVersion(1, 0);
+                options.AssumeDefaultVersionWhenUnspecified = true;
+                options.ReportApiVersions = true;
+            });
+
+            services.AddVersionedApiExplorer(options =>
+            {
+                // add the versioned api explorer, which also adds IApiVersionDescriptionProvider service  
+                // note: the specified format code will format the version as "'v'major[.minor][-status]"  
+                options.GroupNameFormat = "'v'VVV";
+
+                // note: this option is only necessary when versioning by url segment. the SubstitutionFormat  
+                // can also be used to control the format of the API version in route templates  
+                options.SubstituteApiVersionInUrl = true;
+            });
+            #endregion
 
             services.AddControllers().AddXmlSerializerFormatters();
 
@@ -56,7 +78,7 @@ namespace SIGO.Normas
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("./v1/swagger.json", "Normas V1");
+                c.SwaggerEndpoint("./v1/swagger.json", "v1");
             });
 
             app.UseRouting();
