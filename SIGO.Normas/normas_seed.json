@@ -2,6 +2,7 @@
   {
     "codigo": "ABNT NBR ISO 18264:2020",
     "titulo": "Lingas têxteis - Lingas de cabos de fibra para operação de içamento de utilização geral - Polietileno de alto módulo (HMPE)",
+    "dataPublicacao": "2020-03-24",
     "comite": "ABNT/CB-050 Materiais, Equipamentos e Estruturas Oceânicas para Indústria do Petróleo e Gás Natural",
     "paginas": "38",
     "status": "Em Vigor",
@@ -13,6 +14,7 @@
   {
     "codigo": "ABNT NBR 15547:2019",
     "titulo": "Transportadores contínuos, transportadores contínuos com correias têxteis - Emendas permanentes",
+    "dataPublicacao": "2019-09-30",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "12",
     "status": "Em Vigor",
@@ -24,6 +26,7 @@
   {
     "codigo": "ABNT NBR 16787:2019",
     "titulo": "Materiais têxteis — Segurança química em têxteis — Requisitos e métodos de ensaio",
+    "dataPublicacao": "2019-07-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "15",
     "status": "Em Vigor",
@@ -35,6 +38,7 @@
   {
     "codigo": "ABNT NBR ISO 105-X12:2019",
     "titulo": "Têxteis — Ensaios de solidez da corParte X12: Solidez da cor à fricção",
+    "dataPublicacao": "2019-03-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -46,6 +50,7 @@
   {
     "codigo": "ABNT NBR ISO 105-B02:2019",
     "titulo": "Têxteis - Ensaios de solidez da corParte B02: Solidez da cor à luz artificial: Ensaio da lâmpada de desbotamento de arco de xenônio",
+    "dataPublicacao": "2019-03-27",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "38",
     "status": "Em Vigor",
@@ -57,6 +62,7 @@
   {
     "codigo": "ABNT NBR 16693:2018",
     "titulo": "Produtos têxteis para saúde - Aventais e roupas privativas para procedimento não cirurgico utilizados por profissionais de saúde e pacientes - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2018-12-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "9",
     "status": "Em Vigor",
@@ -68,6 +74,7 @@
   {
     "codigo": "ABNT NBR ISO 105-X11:2018",
     "titulo": "Têxteis - Ensaios de solidez da corParte X11: Solidez à passagem a quente",
+    "dataPublicacao": "2018-11-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -79,6 +86,7 @@
   {
     "codigo": "ABNT NBR 16712:2018",
     "titulo": "Materiais têxteis — Determinação do ácido perfluoroctano sulfônico (PFOS) e seus derivados em artigos têxteis revestidos e impregnados — Método para amostragem, extração e análise por LC-qMS ou LC-MS/MS",
+    "dataPublicacao": "2018-11-12",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "17",
     "status": "Em Vigor",
@@ -90,6 +98,7 @@
   {
     "codigo": "ABNT NBR 10592:2018",
     "titulo": "Artigos confeccionados - Aviamentos - Terminologia do zíper",
+    "dataPublicacao": "2018-10-02",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "15",
     "status": "Em Vigor",
@@ -101,6 +110,7 @@
   {
     "codigo": "ABNT NBR 16498:2018",
     "titulo": "Materiais têxteis — Determinação de metais pesados por digestão ácida assistida por micro-ondas",
+    "dataPublicacao": "2018-09-18",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "8",
     "status": "Em Vigor",
@@ -112,6 +122,7 @@
   {
     "codigo": "ABNT NBR 13433:2018",
     "titulo": "Produtos têxteis para saúde - Determinação do pH residual em artigos têxteis hospitalares",
+    "dataPublicacao": "2018-05-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -123,6 +134,7 @@
   {
     "codigo": "ABNT NBR ISO 3071:2018",
     "titulo": "Têxteis - Determinação de pH de extratos aquosos",
+    "dataPublicacao": "2018-04-06",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -134,6 +146,7 @@
   {
     "codigo": "ABNT NBR 16503:2018",
     "titulo": "Materiais têxteis - Determinação da presença de corantes dispersos alergênicos e cancerígenos",
+    "dataPublicacao": "2018-01-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Em Vigor",
@@ -145,6 +158,7 @@
   {
     "codigo": "ABNT NBR 14852:2017",
     "titulo": "Produtos têxteis para saúde - Atadura gessada - Requisitos e métodos",
+    "dataPublicacao": "2017-11-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "9",
     "status": "Em Vigor",
@@ -156,6 +170,7 @@
   {
     "codigo": "ABNT NBR 12546:2017",
     "titulo": "Materiais têxteis — Ligamentos fundamentais de tecidos planos — Terminologia",
+    "dataPublicacao": "2017-09-22",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -167,6 +182,7 @@
   {
     "codigo": "ABNT NBR 14108:2017",
     "titulo": "Produtos têxteis para saúde — Gaze em rolo — Requisitos e métodos de ensaio",
+    "dataPublicacao": "2017-09-18",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -178,6 +194,7 @@
   {
     "codigo": "ABNT NBR 12017:2017",
     "titulo": "Materiais têxteis - Determinação da solidez de cor à mercerização",
+    "dataPublicacao": "2017-03-23",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -189,6 +206,7 @@
   {
     "codigo": "ABNT NBR 10678:2017",
     "titulo": "Materiais têxteis — Determinação da solidez de cor por vulcanização: Ar quente",
+    "dataPublicacao": "2017-01-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -200,6 +218,7 @@
   {
     "codigo": "ABNT NBR 13841:2016",
     "titulo": "Produtos têxteis para saúde - Tecido de gaze hidrófila purificada - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2016-12-02",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Em Vigor",
@@ -211,6 +230,7 @@
   {
     "codigo": "ABNT NBR 13734:2016",
     "titulo": "Produtos têxteis para saúde - Características de lençóis, fronha e pijama hospitalar",
+    "dataPublicacao": "2016-12-01",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -222,6 +242,7 @@
   {
     "codigo": "ABNT NBR 16551:2016",
     "titulo": "Materiais Têxteis — Determinação de certas aminas aromáticas derivadas de corantes azoicos acessíveis a agentes redutores",
+    "dataPublicacao": "2016-12-01",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "27",
     "status": "Em Vigor",
@@ -233,6 +254,7 @@
   {
     "codigo": "ABNT NBR ISO 18254-1:2016",
     "titulo": "Têxteis — Método para a detecção e determinação de alquilfenóis etoxilados (APEO)Parte 1: Método usando HPLC-MS",
+    "dataPublicacao": "2016-11-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "11",
     "status": "Em Vigor",
@@ -244,6 +266,7 @@
   {
     "codigo": "ABNT NBR 14368:2016",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da resistência do acabamento à fricção com borracha",
+    "dataPublicacao": "2016-11-25",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "6",
     "status": "Em Vigor",
@@ -255,6 +278,7 @@
   {
     "codigo": "ABNT NBR 16064:2016 Versão Corrigida:2020",
     "titulo": "Produtos têxteis para saúde - Campos cirúrgicos, aventais e roupas para sala limpa, utilizados por pacientes e profissionais de saúde e para equipamento - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2016-10-26",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "16",
     "status": "Em Vigor",
@@ -266,6 +290,7 @@
   {
     "codigo": "ABNT NBR ISO 13934-1:2016",
     "titulo": "Têxteis - Propriedades de tração de tecidosParte 1: Determinação da força máxima e alongamento à força máxima utilizando o método de tira",
+    "dataPublicacao": "2016-10-04",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "12",
     "status": "Em Vigor",
@@ -277,6 +302,7 @@
   {
     "codigo": "ABNT NBR ISO 13934-2:2016",
     "titulo": "Têxteis - Propriedades de tração de tecidosParte 2: Determinação da força máxima utilizando o método grab test",
+    "dataPublicacao": "2016-10-04",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "10",
     "status": "Em Vigor",
@@ -288,6 +314,7 @@
   {
     "codigo": "ABNT NBR 16525:2016",
     "titulo": "Materiais Têxteis - Método de ensaio para determinação de ftalatos",
+    "dataPublicacao": "2016-09-01",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "9",
     "status": "Em Vigor",
@@ -299,6 +326,7 @@
   {
     "codigo": "ABNT NBR 16506-1:2016",
     "titulo": "Produtos têxteis para saúdeParte 1: Fita cirúrgica adesiva hipoalergênica - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2016-06-24",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "21",
     "status": "Em Vigor",
@@ -310,6 +338,7 @@
   {
     "codigo": "ABNT NBR 16506-2:2016",
     "titulo": "Produtos têxteis para saúdeParte 2: Esparadrapos com látex natural - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2016-06-24",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "19",
     "status": "Em Vigor",
@@ -321,6 +350,7 @@
   {
     "codigo": "ABNT NBR 9928:2016",
     "titulo": "Tipos de embalagens e suportes para acondicionamento de materiais têxteis - Terminologia",
+    "dataPublicacao": "2016-06-24",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -332,6 +362,7 @@
   {
     "codigo": "ABNT NBR 11231:2016",
     "titulo": "Revestimentos têxteis de piso - Determinação da alteração de aspecto sob ação de cadeira com rodízios",
+    "dataPublicacao": "2016-05-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -343,6 +374,7 @@
   {
     "codigo": "ABNT NBR 16478:2016",
     "titulo": "Artigos confeccionados — Aviamentos — Parâmetros dimensionais do zíper",
+    "dataPublicacao": "2016-05-20",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Em Vigor",
@@ -354,6 +386,7 @@
   {
     "codigo": "ABNT NBR 11229:2016",
     "titulo": "Revestimentos têxteis de piso - Determinação da alteração de aspecto no aparelho BTW",
+    "dataPublicacao": "2016-05-19",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -365,6 +398,7 @@
   {
     "codigo": "ABNT NBR 11233:2016",
     "titulo": "Revestimentos têxteis para piso — Determinação das dimensões de tapetes retangulares",
+    "dataPublicacao": "2016-04-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -376,6 +410,7 @@
   {
     "codigo": "ABNT NBR 7686:2016",
     "titulo": "Revestimentos têxteis de piso — Terminologia",
+    "dataPublicacao": "2016-02-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "25",
     "status": "Em Vigor",
@@ -387,6 +422,7 @@
   {
     "codigo": "ABNT NBR 8427:2015",
     "titulo": "Emprego do sistema tex para expressar títulos têxteis — Procedimento",
+    "dataPublicacao": "2015-10-26",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "19",
     "status": "Em Vigor",
@@ -398,6 +434,7 @@
   {
     "codigo": "ABNT NBR 8810:2015",
     "titulo": "Revestimentos têxteis de piso - Determinação da resistência à abrasão",
+    "dataPublicacao": "2015-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -409,6 +446,7 @@
   {
     "codigo": "ABNT NBR 15883-1:2015",
     "titulo": "Cintas têxteis para amarração de cargas - SegurançaParte 1: Cálculo de tensões",
+    "dataPublicacao": "2015-04-27",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "30",
     "status": "Em Vigor",
@@ -420,6 +458,7 @@
   {
     "codigo": "ABNT NBR 15883-2:2015",
     "titulo": "Cintas têxteis para amarração de cargas - SegurançaParte 2: Cintas planas",
+    "dataPublicacao": "2015-04-27",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "19",
     "status": "Em Vigor",
@@ -431,6 +470,7 @@
   {
     "codigo": "ABNT NBR 9400:2015",
     "titulo": "Revestimentos têxteis de piso - Determinação da massa total por unidade de área",
+    "dataPublicacao": "2015-04-15",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -442,6 +482,7 @@
   {
     "codigo": "ABNT NBR 16348:2015",
     "titulo": "Correias transportadoras com lonas têxteis para produtos a granel - Dimensões, especificações e marcações",
+    "dataPublicacao": "2015-03-05",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "12",
     "status": "Em Vigor",
@@ -453,6 +494,7 @@
   {
     "codigo": "ABNT NBR 11230:2015",
     "titulo": "Revestimentos têxteis de piso - Determinação da força de arrancamento dos tufos - Ancoragem",
+    "dataPublicacao": "2015-01-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -464,6 +506,7 @@
   {
     "codigo": "ABNT NBR 10314:2015",
     "titulo": "Revestimento têxteis de piso - Determinação da perda de espessura após aplicação de uma carga estática moderada",
+    "dataPublicacao": "2015-01-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -475,6 +518,7 @@
   {
     "codigo": "ABNT NBR 10313:2015",
     "titulo": "Revestimentos têxteis de piso - Determinação da alteração dimensional",
+    "dataPublicacao": "2015-01-12",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -486,6 +530,7 @@
   {
     "codigo": "ABNT NBR 10593:2014",
     "titulo": "Revestimentos têxteis de piso - Determinação da perda de espessura após aplicação prolongada de uma carga estática elevada",
+    "dataPublicacao": "2014-12-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -497,6 +542,7 @@
   {
     "codigo": "ABNT NBR 10594:2014",
     "titulo": "Revestimentos têxteis de piso - Determinação da massa do veludo útil por unidade de superfície",
+    "dataPublicacao": "2014-12-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -508,6 +554,7 @@
   {
     "codigo": "ABNT NBR 10595:2014",
     "titulo": "Revestimentos têxteis de piso — Determinação do número de tufos ou bucles por unidades de comprimento",
+    "dataPublicacao": "2014-12-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -519,6 +566,7 @@
   {
     "codigo": "ABNT NBR 10596:2014",
     "titulo": "Revestimento têxteis de piso — Determinação da massa específica e da densidade do veludo útil",
+    "dataPublicacao": "2014-12-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -530,6 +578,7 @@
   {
     "codigo": "ABNT NBR 8720:2014",
     "titulo": "Preparação de corpos de prova de revestimentos têxteis de piso — Procedimento",
+    "dataPublicacao": "2014-12-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "1",
     "status": "Em Vigor",
@@ -541,6 +590,7 @@
   {
     "codigo": "ABNT NBR 9399:2014",
     "titulo": "Revestimentos têxteis de piso - Determinação da espessura",
+    "dataPublicacao": "2014-12-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -552,6 +602,7 @@
   {
     "codigo": "ABNT NBR 9926:2014",
     "titulo": "Revestimentos têxteis de piso - Determinação da espessura do veludo útil",
+    "dataPublicacao": "2014-12-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -563,6 +614,7 @@
   {
     "codigo": "ABNT NBR ISO 105-N01:2014",
     "titulo": "Têxteis - Ensaios de solidez da corParte N01: Solidez da cor ao alvejamento: Hipoclorito",
+    "dataPublicacao": "2014-12-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -574,6 +626,7 @@
   {
     "codigo": "ABNT NBR 16309:2014",
     "titulo": "Beneficiamento de materiais têxteis - Requisitos para prestação de serviços",
+    "dataPublicacao": "2014-09-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -585,6 +638,7 @@
   {
     "codigo": "ABNT NBR ISO 14184-1:2014",
     "titulo": "Têxteis — Determinação de formaldeídoParte 1: Formaldeído livre e hidrolisado (método de extração em água)",
+    "dataPublicacao": "2014-08-13",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "8",
     "status": "Em Vigor",
@@ -596,6 +650,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E04:2014",
     "titulo": "Têxteis — Ensaios de solidez da corParte E04: Solidez da cor ao suor",
+    "dataPublicacao": "2014-05-19",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -607,6 +662,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E01:2014",
     "titulo": "Têxteis — Ensaios de solidez da corParte E01: Solidez da cor à água",
+    "dataPublicacao": "2014-02-10",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -618,6 +674,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E02:2014",
     "titulo": "Têxteis — Ensaios de solidez da corParte E02: Solidez da cor à água do mar",
+    "dataPublicacao": "2014-02-10",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -629,6 +686,7 @@
   {
     "codigo": "ABNT NBR 15292:2013",
     "titulo": "Artigos confeccionados — Vestimenta de segurança de alta visibilidade",
+    "dataPublicacao": "2013-05-08",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "23",
     "status": "Em Vigor",
@@ -640,6 +698,7 @@
   {
     "codigo": "ABNT NBR NM ISO 3758:2013 Versão Corrigida 2:2013",
     "titulo": "Têxteis — Códigos de cuidado usando símbolos (ISO 3758:2012, IDT)",
+    "dataPublicacao": "2013-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "24",
     "status": "Em Vigor",
@@ -651,6 +710,7 @@
   {
     "codigo": "ABNT NBR 16053:2012",
     "titulo": "Materiais têxteis finalizados para cama, mesa e banho, confeccionados ou não — Determinação das dimensões e requisito de tolerância",
+    "dataPublicacao": "2012-04-09",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "14",
     "status": "Em Vigor",
@@ -662,6 +722,7 @@
   {
     "codigo": "ABNT NBR ISO 105-J02:2011",
     "titulo": "Têxteis — Ensaios de solidez da corParte J02: Avaliação instrumental do grau de branco relativo",
+    "dataPublicacao": "2011-07-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -673,6 +734,7 @@
   {
     "codigo": "ABNT NBR ISO 105-D01:2011",
     "titulo": "Têxteis — Ensaios de solidez da corParte D01: Solidez da cor à lavagem a seco usando solvente percloroetileno",
+    "dataPublicacao": "2011-07-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -684,6 +746,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E03:2011",
     "titulo": "Têxteis - Ensaios de solidez da corParte E03: Solidez da cor à água colorada (água de piscina)",
+    "dataPublicacao": "2011-04-01",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -695,6 +758,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E05:2011",
     "titulo": "Têxteis - Ensaios de solidez da corParte E05: Solidez da cor ao manchamento: Ácido",
+    "dataPublicacao": "2011-03-31",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -706,6 +770,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E07:2011",
     "titulo": "Têxteis - Ensaios de solidez da corParte E07: Solidez da cor ao manchamento: Água",
+    "dataPublicacao": "2011-03-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -717,6 +782,7 @@
   {
     "codigo": "ABNT NBR ISO 105-A01:2011",
     "titulo": "Têxteis – Ensaios de solidez da corParte A01: Princípios gerais de ensaio",
+    "dataPublicacao": "2011-01-03",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "12",
     "status": "Em Vigor",
@@ -728,6 +794,7 @@
   {
     "codigo": "ABNT NBR ISO 105-J03:2010",
     "titulo": "Têxteis — Ensaios de solidez da corParte J03: Cálculo de diferenças da cor",
+    "dataPublicacao": "2010-08-27",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "10",
     "status": "Em Vigor",
@@ -739,6 +806,7 @@
   {
     "codigo": "ABNT NBR ISO 105-C06:2010",
     "titulo": "Têxteis — Ensaios de solidez da corParte C06: Solidez da cor à lavagem doméstica e comercial",
+    "dataPublicacao": "2010-08-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "10",
     "status": "Em Vigor",
@@ -750,6 +818,7 @@
   {
     "codigo": "ABNT NBR ISO 105-G03:2010",
     "titulo": "Têxteis — Ensaios de solidez da corParte G03: Solidez da cor ao ozônio na atmosfera",
+    "dataPublicacao": "2010-08-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Em Vigor",
@@ -761,6 +830,7 @@
   {
     "codigo": "ABNT NBR ISO 105-B07:2010",
     "titulo": "Têxteis — Ensaios de solidez da corParte B07: Solidez da cor à luz de têxteis umectados com suor artificial",
+    "dataPublicacao": "2010-08-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -772,6 +842,7 @@
   {
     "codigo": "ABNT NBR ISO 105-F02:2010",
     "titulo": "Têxteis — Ensaios de solidez da corParte F02: Especificação para tecidos-testemunha de algodão e viscose",
+    "dataPublicacao": "2010-08-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -783,6 +854,7 @@
   {
     "codigo": "ABNT NBR ISO 105-F09:2010",
     "titulo": "Têxteis — Ensaios de solidez da corParte F09: Especificação para tecido-testemunha de algodão para friccionamento",
+    "dataPublicacao": "2010-08-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -794,6 +866,7 @@
   {
     "codigo": "ABNT NBR ISO 105-C09:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte C09: Solidez da cor à lavagem doméstica e comercial - Efeito do alvejamento oxidativo usando um detergente de referência não fosfatado, incorporando um ativador de alvejamento à baixa temperatura",
+    "dataPublicacao": "2009-09-25",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "8",
     "status": "Em Vigor",
@@ -805,6 +878,7 @@
   {
     "codigo": "ABNT NBR 14767:2009",
     "titulo": "Artigos têxteis hospitalares - Compressa campo operatório - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2009-07-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -816,6 +890,7 @@
   {
     "codigo": "ABNT NBR 15736:2009",
     "titulo": "Artigo têxtil hospitalar - Malha tubular - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2009-07-15",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -827,6 +902,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E12:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte E12: Solidez da cor à batanagem: Batanagem alcalina",
+    "dataPublicacao": "2009-06-09",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -838,6 +914,7 @@
   {
     "codigo": "ABNT NBR ISO 105-G01:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte G01: Solidez da cor aos óxidos de nitrogênio",
+    "dataPublicacao": "2009-06-05",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "8",
     "status": "Em Vigor",
@@ -849,6 +926,7 @@
   {
     "codigo": "ABNT NBR ISO 105-G02:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte G02: Solidez da cor aos fumos de gases queimados",
+    "dataPublicacao": "2009-06-05",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -860,6 +938,7 @@
   {
     "codigo": "ABNT NBR ISO 105-B01:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte B01: Solidez da cor à luz: Luz do dia",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "12",
     "status": "Em Vigor",
@@ -871,6 +950,7 @@
   {
     "codigo": "ABNT NBR ISO 105-B03:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte B03: Solidez da cor ao intemperismo: Exposição ao meio ambiente exterior",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Em Vigor",
@@ -882,6 +962,7 @@
   {
     "codigo": "ABNT NBR ISO 105-B04:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte B04: Solidez da cor ao intemperismo artificial: Ensaio de lâmpada de desbotamento ao arco de xenônio",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "9",
     "status": "Em Vigor",
@@ -893,6 +974,7 @@
   {
     "codigo": "ABNT NBR ISO 105-B05:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte B05: Verificação e avaliação de fotocromismo",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -904,6 +986,7 @@
   {
     "codigo": "ABNT NBR ISO 105-B06:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte B06: Solidez da cor e envelhecimento à luz artificial a elevadas temperaturas: Ensaio de desbotamento com lâmpada de arco de xenônio",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "16",
     "status": "Em Vigor",
@@ -915,6 +998,7 @@
   {
     "codigo": "ABNT NBR ISO 105-B08:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte B08: Controle de qualidade dos tecidos de lã azul de referência 1 a 7",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "8",
     "status": "Em Vigor",
@@ -926,6 +1010,7 @@
   {
     "codigo": "ABNT NBR ISO 105-C07:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte C07: Solidez da cor à escovação a úmido de têxteis coloridos com pigmentos",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -937,6 +1022,7 @@
   {
     "codigo": "ABNT NBR ISO 105-C10:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte C10: Solidez da cor à lavagem com sabão ou sabão e barrilha",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Em Vigor",
@@ -948,6 +1034,7 @@
   {
     "codigo": "ABNT NBR ISO 105-C12:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte C12: Solidez da cor à lavagem industrial",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Em Vigor",
@@ -959,6 +1046,7 @@
   {
     "codigo": "ABNT NBR ISO 105-D02:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte D02: Solidez da cor à fricção: Solventes orgânicos",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -970,6 +1058,7 @@
   {
     "codigo": "ABNT NBR ISO 105-X16:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte X16: Solidez da cor à fricção - Pequenas áreas",
+    "dataPublicacao": "2009-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -981,6 +1070,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E06:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte E06: Solidez da cor ao manchamento: Álcali",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -992,6 +1082,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E08:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte E08: Solidez da cor à água quente",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1003,6 +1094,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E09:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte E09: Solidez da cor ao tratamento a úmido",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1014,6 +1106,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E10:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte E10: Solidez da cor à decatizagem",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1025,6 +1118,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E11:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte E11: Solidez da cor a vaporização",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1036,6 +1130,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E13:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte E13: Solidez da cor à feltragem ácida: Severa",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1047,6 +1142,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E14:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte E14: Solidez da cor à feltragem ácida: Suave",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1058,6 +1154,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E16:2009",
     "titulo": "Têxteis - Ensaios de solidez da corParte E16: Solidez da cor ao manchamento com água em tecidos de revestimento",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -1069,6 +1166,7 @@
   {
     "codigo": "ABNT NBR 13843:2009",
     "titulo": "Artigo têxtil hospitalar - Compressa de gaze - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2009-02-06",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -1080,6 +1178,7 @@
   {
     "codigo": "ABNT NBR 15620:2008",
     "titulo": "Artigos têxteis hospitalares - Atadura ortopédica- requisitos e métodos de ensaio",
+    "dataPublicacao": "2008-09-08",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -1091,6 +1190,7 @@
   {
     "codigo": "ABNT NBR 13842:2008",
     "titulo": "Artigo têxteis hospitalares - Determinação de pureza (resíduos de incineração, corantes corretivos, substâncias gordurosas e de substâncias solúveis em água)",
+    "dataPublicacao": "2008-08-18",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -1102,6 +1202,7 @@
   {
     "codigo": "ABNT NBR ISO 139:2008",
     "titulo": "Têxteis - Atmosferas-padrão para condicionamento e ensaio",
+    "dataPublicacao": "2008-07-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -1113,6 +1214,7 @@
   {
     "codigo": "ABNT NBR 10591:2008",
     "titulo": "Materiais têxteis - Determinação da gramatura de superfícies têxteis",
+    "dataPublicacao": "2008-07-14",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -1124,6 +1226,7 @@
   {
     "codigo": "ABNT NBR 10590:2008",
     "titulo": "Materiais têxteis - Determinação da alteração do comprimento e da largura de tecidos em atmosfera - Padrão",
+    "dataPublicacao": "2008-05-26",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1135,6 +1238,7 @@
   {
     "codigo": "ABNT NBR ISO 105-J01:2008",
     "titulo": "Têxteis - Ensaios de solidez da corParte J01: Princípios gerais para a medição da cor de superfície",
+    "dataPublicacao": "2008-03-03",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "13",
     "status": "Em Vigor",
@@ -1146,6 +1250,7 @@
   {
     "codigo": "ABNT NBR ISO 105-A04:2007",
     "titulo": "Têxteis - Ensaios de solidez da corParte A04: Método para avaliação instrumental do grau de transferência da cor a tecidos-testemunha",
+    "dataPublicacao": "2007-12-10",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1157,6 +1262,7 @@
   {
     "codigo": "ABNT NBR ISO 105-A05:2007",
     "titulo": "Têxteis - Ensaios de solidez da corParte A05: Avaliação instrumental da alteração da cor para classificação na escala cinza",
+    "dataPublicacao": "2007-12-10",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -1168,6 +1274,7 @@
   {
     "codigo": "ABNT NBR ISO 105-A06:2007",
     "titulo": "Têxteis - Ensaios de solidez da corParte A06: Determinação instrumental do padrão 1/1 de intensidade da cor",
+    "dataPublicacao": "2007-12-10",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -1179,6 +1286,7 @@
   {
     "codigo": "ABNT NBR ISO 105-A08:2007",
     "titulo": "Têxteis - Ensaios de solidez da corParte A08: Vocabulário usado na medição da cor",
+    "dataPublicacao": "2007-12-10",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -1190,6 +1298,7 @@
   {
     "codigo": "ABNT NBR 15525:2007",
     "titulo": "Têxtil e vestuário - Padronização de etiquetagem de tamanhos de meias",
+    "dataPublicacao": "2007-09-03",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -1201,6 +1310,7 @@
   {
     "codigo": "ABNT NBR ISO 105-F10:2007",
     "titulo": "Têxteis - Ensaios de solidez da corParte F10 - Especificação para tecido-testemunha de multifibras",
+    "dataPublicacao": "2007-05-21",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -1212,6 +1322,7 @@
   {
     "codigo": "ABNT NBR ISO 105-F01:2007",
     "titulo": "Têxteis - Ensaios de solidez da corParte F01: Especificação para tecido-testemunha de lã",
+    "dataPublicacao": "2007-05-14",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -1223,6 +1334,7 @@
   {
     "codigo": "ABNT NBR ISO 105-F03:2007",
     "titulo": "Têxteis - Ensaios de solidez da corPart F03: Especificação para tecido-testemunha de poliamida",
+    "dataPublicacao": "2007-05-14",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1234,6 +1346,7 @@
   {
     "codigo": "ABNT NBR ISO 105-F04:2007",
     "titulo": "Têxteis - Ensaios de solidez da corPart F04: Especificação para tecido-testemunha de polliéster",
+    "dataPublicacao": "2007-05-14",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1245,6 +1358,7 @@
   {
     "codigo": "ABNT NBR ISO 105-F05:2007",
     "titulo": "Têxteis - Ensaios de solidez da corPart F05: Especificação para tecido - testemunha de acrílico",
+    "dataPublicacao": "2007-05-14",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1256,6 +1370,7 @@
   {
     "codigo": "ABNT NBR ISO 105-F06:2007",
     "titulo": "Têxteis - Ensaios de solidez da corParte F06: Especificação para tecido-testemunha de seda",
+    "dataPublicacao": "2007-05-14",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -1267,6 +1382,7 @@
   {
     "codigo": "ABNT NBR ISO 105-F07:2007",
     "titulo": "Têxteis - Ensaios de solidez da corParte F07: Especificação para tecido-testemunha de acetato secundário",
+    "dataPublicacao": "2007-05-14",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1278,6 +1394,7 @@
   {
     "codigo": "ABNT NBR 13350:2007",
     "titulo": "Artigos têxteis hospitalares - Determinação da presença de amido - Método de ensaio",
+    "dataPublicacao": "2007-03-05",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1289,6 +1406,7 @@
   {
     "codigo": "ABNT NBR 15440:2006",
     "titulo": "Revestimentos têxteis de piso - Placas - Determinação do comprimento, linearidade do corte e esquadria",
+    "dataPublicacao": "2006-11-21",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1300,6 +1418,7 @@
   {
     "codigo": "ABNT NBR 15429:2006",
     "titulo": "Revestimentos têxteis de piso - Produção de alterações na aparência por meio de ensaio com o tambor Vettermann e impacto por hexápode",
+    "dataPublicacao": "2006-11-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Em Vigor",
@@ -1311,6 +1430,7 @@
   {
     "codigo": "ABNT NBR 15430:2006",
     "titulo": "Revestimentos têxteis de piso - Avaliação de alteração da aparência",
+    "dataPublicacao": "2006-11-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -1322,6 +1442,7 @@
   {
     "codigo": "ABNT NBR 15431:2006",
     "titulo": "Revestimentos têxteis de piso - Determinação da resistência ao dano das bordas cortadas, utilizando o ensaio modificado de tambor Vettermann",
+    "dataPublicacao": "2006-11-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -1333,6 +1454,7 @@
   {
     "codigo": "ABNT NBR 15434:2006",
     "titulo": "Revestimentos têxteis de piso - Avaliação das impregnações dos revestimentos têxteis de piso agulhados por um ensaio de sujeira.",
+    "dataPublicacao": "2006-11-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -1344,6 +1466,7 @@
   {
     "codigo": "ABNT NBR 15435:2006",
     "titulo": "Revestimentos têxteis de piso - Destacamento da base secundária de revestimentos têxteis de piso com veludo ou pêlo",
+    "dataPublicacao": "2006-11-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1355,6 +1478,7 @@
   {
     "codigo": "ABNT NBR 15439:2006",
     "titulo": "Revestimentos têxteis de piso - Ensaios utilizando o equipamento Lisson",
+    "dataPublicacao": "2006-11-13",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "10",
     "status": "Em Vigor",
@@ -1366,6 +1490,7 @@
   {
     "codigo": "ABNT NBR 15432:2006",
     "titulo": "Revestimentos têxteis de piso - Placas - Determinação da estabilidade dimensional em condições de umidade e calor",
+    "dataPublicacao": "2006-11-06",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1377,6 +1502,7 @@
   {
     "codigo": "ABNT NBR 15433:2006",
     "titulo": "Revestimentos têxteis de piso - Avaliação do \"creep\" das bases",
+    "dataPublicacao": "2006-11-06",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1388,6 +1514,7 @@
   {
     "codigo": "ABNT NBR 15436:2006",
     "titulo": "Revestimentos têxteis de piso - Determinação da massa da camada útil de revestimentos têxteis de piso agulhados planos",
+    "dataPublicacao": "2006-11-06",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1399,6 +1526,7 @@
   {
     "codigo": "ABNT NBR ISO 105-A02:2006",
     "titulo": "Têxteis - Ensaios de solidez da corParte A02: Escala cinza para avaliação da alteração da cor",
+    "dataPublicacao": "2006-08-07",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1410,6 +1538,7 @@
   {
     "codigo": "ABNT NBR ISO 105-A03:2006",
     "titulo": "Têxteis - Ensaios de solidez da corPart A03: Escala cinza para avaliação da transferência da cor",
+    "dataPublicacao": "2006-08-07",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1421,6 +1550,7 @@
   {
     "codigo": "ABNT NBR 10589:2006",
     "titulo": "Materiais têxteis - Determinação da largura de não-tecidos e tecidos planos",
+    "dataPublicacao": "2006-06-12",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1432,6 +1562,7 @@
   {
     "codigo": "ABNT NBR 15354:2006",
     "titulo": "Materiais têxteis -Determinação da resistência à perfuração estática",
+    "dataPublicacao": "2006-04-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1443,6 +1574,7 @@
   {
     "codigo": "ABNT NBR 15291:2005",
     "titulo": "Filamentos têxteis - Determinação do número de filamentos em fios ou tecidos multifilamentos",
+    "dataPublicacao": "2005-11-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -1454,6 +1586,7 @@
   {
     "codigo": "ABNT NBR 13371:2005",
     "titulo": "Materiais têxteis - Determinação da espessura",
+    "dataPublicacao": "2005-09-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Em Vigor",
@@ -1465,6 +1598,7 @@
   {
     "codigo": "ABNT NBR ISO 9902-1:2005",
     "titulo": "Máquinas têxteis - Código de ensaio acústicoParte 1: Requisitos comuns",
+    "dataPublicacao": "2005-07-29",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "12",
     "status": "Em Vigor",
@@ -1476,6 +1610,7 @@
   {
     "codigo": "ABNT NBR ISO 9902-2:2005",
     "titulo": "Máquinas têxteis - Código de ensaio acústicoParte 2: Máquinas de preparação à fiação e de fiação",
+    "dataPublicacao": "2005-07-29",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "17",
     "status": "Em Vigor",
@@ -1487,6 +1622,7 @@
   {
     "codigo": "ABNT NBR ISO 9902-3:2005",
     "titulo": "Máquinas têxteis - Código de ensaio acústicoParte 3: Máquinas de não-tecido",
+    "dataPublicacao": "2005-07-29",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "7",
     "status": "Em Vigor",
@@ -1498,6 +1634,7 @@
   {
     "codigo": "ABNT NBR ISO 9902-4:2005",
     "titulo": "Máquinas têxteis - Códigos de ensaio acústicoParte 4: Máquinas de processamento de fio e de fabricação de corda e artigo de codoaria",
+    "dataPublicacao": "2005-07-29",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "8",
     "status": "Em Vigor",
@@ -1509,6 +1646,7 @@
   {
     "codigo": "ABNT NBR ISO 9902-5:2005",
     "titulo": "Máquinas têxteis - Códigos de ensaio acústicoParte 5: Máquinas de preparação de tecelagem e malharia",
+    "dataPublicacao": "2005-07-29",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "6",
     "status": "Em Vigor",
@@ -1520,6 +1658,7 @@
   {
     "codigo": "ABNT NBR ISO 9902-6:2005",
     "titulo": "Máquinas têxteis - Códigos de ensaio acústicoParte 6: Máquinas de fabricação de tecido",
+    "dataPublicacao": "2005-07-29",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "12",
     "status": "Em Vigor",
@@ -1531,6 +1670,7 @@
   {
     "codigo": "ABNT NBR ISO 9902-7:2005",
     "titulo": "Máquinas têxteis - Código de ensaio acústicoParte 7: Máquinas de tingimento e acabamento",
+    "dataPublicacao": "2005-07-29",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "17",
     "status": "Em Vigor",
@@ -1542,6 +1682,7 @@
   {
     "codigo": "ABNT NBR 15053:2004",
     "titulo": "Artigo têxil hospitalar - Curativo cirúrgico - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2004-03-31",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Em Vigor",
@@ -1553,6 +1694,7 @@
   {
     "codigo": "ABNT NBR 14056:2002",
     "titulo": "Artigo têxtil hospitalar - Atadura de crepom - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2002-10-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -1564,6 +1706,7 @@
   {
     "codigo": "ABNT NBR 12071:2002",
     "titulo": "Artigos confeccionados para vestuário - Determinação das dimensões",
+    "dataPublicacao": "2002-03-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -1575,6 +1718,7 @@
   {
     "codigo": "ABNT NBR 14673:2001",
     "titulo": "Materiais têxteis - Determinação da irritabilidade dérmica (primária e cumulativa)",
+    "dataPublicacao": "2001-04-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -1586,6 +1730,7 @@
   {
     "codigo": "ABNT NBR 14635:2000",
     "titulo": "Artigo têxtil - Algodão hidrófilo - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2000-12-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Em Vigor",
@@ -1597,6 +1742,7 @@
   {
     "codigo": "ABNT NBR 14307:1999",
     "titulo": "Material têxtil - Tecido plano para camisas esporte e social",
+    "dataPublicacao": "1999-05-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1608,6 +1754,7 @@
   {
     "codigo": "ABNT NBR 14251:1998",
     "titulo": "Material têxtil - Tecido plano para confecção de cortinas",
+    "dataPublicacao": "1998-12-31",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1619,6 +1766,7 @@
   {
     "codigo": "ABNT NBR 14252:1998",
     "titulo": "Material têxtil - Tecido plano para revestimento de móveis",
+    "dataPublicacao": "1998-12-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1630,6 +1778,7 @@
   {
     "codigo": "ABNT NBR 13995:1997",
     "titulo": "Materiais têxteis - Determinação do desvio de trama em tecidos planos",
+    "dataPublicacao": "1997-10-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1641,6 +1790,7 @@
   {
     "codigo": "ABNT NBR 13917:1997",
     "titulo": "Material têxtil - Tecido plano de 100% algodão para roupas profissionais e uniformes",
+    "dataPublicacao": "1997-08-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -1652,6 +1802,7 @@
   {
     "codigo": "ABNT NBR 13589:1996",
     "titulo": "Materiais têxteis - Acabamento stain release - Determinação do grau de remoção de manchas de óleo",
+    "dataPublicacao": "1996-03-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -1663,6 +1814,7 @@
   {
     "codigo": "ABNT NBR 13538:1995",
     "titulo": "Material têxtil - Análise qualitativa",
+    "dataPublicacao": "1995-11-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "20",
     "status": "Em Vigor",
@@ -1674,6 +1826,7 @@
   {
     "codigo": "ABNT NBR 13483:1995",
     "titulo": "Material têxtil - Tipos de pontos",
+    "dataPublicacao": "1995-09-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "21",
     "status": "Em Vigor",
@@ -1685,6 +1838,7 @@
   {
     "codigo": "ABNT NBR 13401:1995",
     "titulo": "Fio de filamento texturizado - Terminologia",
+    "dataPublicacao": "1995-06-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1696,6 +1850,7 @@
   {
     "codigo": "ABNT NBR 13374:1995",
     "titulo": "Material têxtil - Determinação da resistência da costura em materiais têxteis confeccionados ou não - Método de ensaio",
+    "dataPublicacao": "1995-05-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1707,6 +1862,7 @@
   {
     "codigo": "ABNT NBR 13375:1995",
     "titulo": "Linha de costura - Determinação da resistência à ruptura e do alongamento à ruptura - Método de ensaio",
+    "dataPublicacao": "1995-05-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1718,6 +1874,7 @@
   {
     "codigo": "ABNT NBR 13384:1995",
     "titulo": "Material têxtil - Determinação da resistência ao estouro e do alongamento ao estouro - Método do diafragma",
+    "dataPublicacao": "1995-05-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1729,6 +1886,7 @@
   {
     "codigo": "ABNT NBR 13214:1994",
     "titulo": "Materiais têxteis - Determinação do título de fios - Método de ensaio",
+    "dataPublicacao": "1994-10-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1740,6 +1898,7 @@
   {
     "codigo": "ABNT NBR 13215:1994",
     "titulo": "Materiais têxteis - Determinação do encolhimento de fios - Método de ensaio",
+    "dataPublicacao": "1994-10-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1751,6 +1910,7 @@
   {
     "codigo": "ABNT NBR 13216:1994",
     "titulo": "Materiais têxteis - Determinação do título de fios em amostras de comprimento reduzido",
+    "dataPublicacao": "1994-10-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1762,6 +1922,7 @@
   {
     "codigo": "ABNT NBR 13218:1994",
     "titulo": "Material têxtil - Determinação da solidez de cor ao alvejamento com peróxido - Método de ensaio",
+    "dataPublicacao": "1994-10-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1773,6 +1934,7 @@
   {
     "codigo": "ABNT NBR 13175:1994",
     "titulo": "Materiais têxteis - Defeitos em tecido de malha por trama - Termonologia",
+    "dataPublicacao": "1994-06-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1784,6 +1946,7 @@
   {
     "codigo": "ABNT NBR 13122:1994",
     "titulo": "Símbolos para orientação de uso e manutenção de fios de bordado, tricô e crochê - Simbologia",
+    "dataPublicacao": "1994-05-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Em Vigor",
@@ -1795,6 +1958,7 @@
   {
     "codigo": "ABNT NBR 13152:1994",
     "titulo": "Materiais têxteis - Métodos de lavagem e secagem de artigos felpudos e aveludados acabados, em máquina doméstica automática - Método de ensaio",
+    "dataPublicacao": "1994-05-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1806,6 +1970,7 @@
   {
     "codigo": "ABNT NBR 13096:1994",
     "titulo": "Materiais têxteis - Pontos de costura - Terminologia",
+    "dataPublicacao": "1994-02-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1817,6 +1982,7 @@
   {
     "codigo": "ABNT NBR 12999:1993",
     "titulo": "Material têxtil - Ensaio de resistência à pressão hidrostática - Ensaio de coluna d'água - Método de ensaio",
+    "dataPublicacao": "1993-08-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1828,6 +1994,7 @@
   {
     "codigo": "ABNT NBR 12996:1993",
     "titulo": "Materiais têxteis- Determinação dos ligamentos fundamentais de tecidos planos - Método de ensaio",
+    "dataPublicacao": "1993-07-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1839,6 +2006,7 @@
   {
     "codigo": "ABNT NBR 13000:1993",
     "titulo": "Material têxtil - Determinação da hidrofilidade de tecido - Método de ensaio",
+    "dataPublicacao": "1993-07-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1850,6 +2018,7 @@
   {
     "codigo": "ABNT NBR 12744:1992 Versão Corrigida:1993",
     "titulo": "Fibras têxteis - Classificação",
+    "dataPublicacao": "1992-10-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "8",
     "status": "Em Vigor",
@@ -1861,6 +2030,7 @@
   {
     "codigo": "ABNT NBR 12299:1991",
     "titulo": "Cálculo da massa comercial de fibras têxteis - Procedimento",
+    "dataPublicacao": "1991-11-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1872,6 +2042,7 @@
   {
     "codigo": "ABNT NBR 12331:1991",
     "titulo": "Fibras têxteis - Taxa convencional de condicionamento - Padronização",
+    "dataPublicacao": "1991-11-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1883,6 +2054,7 @@
   {
     "codigo": "ABNT NBR 12060:1991 Versão Corrigida:2002",
     "titulo": "Materiais têxteis - Determinação do número de carreiras/cursos e colunas em tecidos de malha - Metodo de ensaio",
+    "dataPublicacao": "1991-03-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Em Vigor",
@@ -1894,6 +2066,7 @@
   {
     "codigo": "ABNT NBR 12251:1990",
     "titulo": "Designação dos fios no sistema TEX - Procedimento",
+    "dataPublicacao": "1990-11-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Em Vigor",
@@ -1905,6 +2078,7 @@
   {
     "codigo": "ABNT NBR 11232:1990",
     "titulo": "Revestimentos têxteis de piso - Comportamento ao fogo - Ensaio da pastilha em temperatura ambiente - Método de ensaio",
+    "dataPublicacao": "1990-03-30",
     "comite": "ABNT/CB-024 Segurança Contra Incêndio",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1916,6 +2090,7 @@
   {
     "codigo": "ABNT NBR 10320:1988",
     "titulo": "Materiais têxteis - Determinação das alterações dimensionais de tecidos planos e malhas - Lavagem em máquina doméstica automática - Método de ensaio",
+    "dataPublicacao": "1988-06-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Em Vigor",
@@ -1927,6 +2102,7 @@
   {
     "codigo": "ABNT NBR 10188:2017CANCELADA",
     "titulo": "Materiais têxteis — Determinação da solidez de cor à ação do ferro de passar a quente",
+    "dataPublicacao": "2017-01-24",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 25/04/2019Substituída por ABNT NBR ISO 105-X11:2018",
@@ -1938,6 +2114,7 @@
   {
     "codigo": "ABNT NBR 11912:2016CANCELADA",
     "titulo": "Materiais têxteis — Determinação da resistência à tração e alongamento de tecidos planos (tira) em dinamômetro tipo CRT",
+    "dataPublicacao": "2016-10-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Cancelada em 24/07/2020Substituída por ABNT NBR ISO 13934-1:2016",
@@ -1949,6 +2126,7 @@
   {
     "codigo": "ABNT NBR 14727:2016CANCELADA",
     "titulo": "Materiais têxteis — Determinação da resistência à tração e alongamento de tecidos planos (grab test) em dinamômetro tipo CRT",
+    "dataPublicacao": "2016-10-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "9",
     "status": "Cancelada em 24/07/2020Substituída por ABNT NBR ISO 13934-2:2016",
@@ -1960,6 +2138,7 @@
   {
     "codigo": "ABNT NBR 16064:2016CANCELADA",
     "titulo": "Produtos têxteis para saúde - Campos cirúrgicos, aventais e roupas para sala limpa, utilizados por pacientes e profissionais de saúde e para equipamento - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2016-10-26",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "16",
     "status": "Cancelada em 16/04/2020Substituída por ABNT NBR 16064:2016 Versão Corrigida:2020",
@@ -1971,6 +2150,7 @@
   {
     "codigo": "ABNT NBR 15337:2014CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da resistência perpendicular às perfurações de agulhas",
+    "dataPublicacao": "2014-09-05",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "5",
     "status": "Cancelada em 11/06/2020Substituída por ABNT NBR 15337:2020",
@@ -1982,6 +2162,7 @@
   {
     "codigo": "ABNT NBR NM ISO 3758:2013CANCELADA",
     "titulo": "Têxteis — Códigos de cuidado usando símbolos (ISO 3758:2012, IDT)",
+    "dataPublicacao": "2013-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "24",
     "status": "Cancelada em 12/09/2013Substituída por ABNT NBR NM ISO 3758:2013 Versão Corrigida:2013",
@@ -1993,6 +2174,7 @@
   {
     "codigo": "ABNT NBR NM ISO 3758:2013 Versão Corrigida:2013CANCELADA",
     "titulo": "Têxteis — Códigos de cuidado usando símbolos (ISO 3758:2012, IDT)",
+    "dataPublicacao": "2013-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "24",
     "status": "Cancelada em 19/11/2013Substituída por ABNT NBR NM ISO 3758:2013 Versão Corrigida 2:2013",
@@ -2004,6 +2186,7 @@
   {
     "codigo": "ABNT NBR 15637-1:2012CANCELADA",
     "titulo": "Cintas têxteis para elevação de cargasParte 1: Cintas planas manufaturadas, com fitas tecidas com fios sintéticos de alta tenacidade formados por multifilamentos",
+    "dataPublicacao": "2012-05-16",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "28",
     "status": "Cancelada em 20/12/2017Substituída por ABNT NBR 15637-1:2017",
@@ -2015,6 +2198,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E01:2011CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez da corParte E01: Solidez da cor à água",
+    "dataPublicacao": "2011-04-01",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Cancelada em 10/02/2014Substituída por ABNT NBR ISO 105-E01:2014",
@@ -2026,6 +2210,7 @@
   {
     "codigo": "ABNT NBR 15883-2:2010CANCELADA",
     "titulo": "Cintas têxteis para amarração de cargas — SegurançaParte 2: Cintas planas",
+    "dataPublicacao": "2010-10-07",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "15",
     "status": "Cancelada em 27/04/2015Substituída por ABNT NBR 15883-2:2015",
@@ -2037,6 +2222,7 @@
   {
     "codigo": "ABNT NBR 15883-1:2010CANCELADA",
     "titulo": "Cintas têxteis para amarração de cargas — SegurançaParte 1: Cálculo de tensões",
+    "dataPublicacao": "2010-10-06",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "28",
     "status": "Cancelada em 27/04/2015Substituída por ABNT NBR 15883-1:2015",
@@ -2048,6 +2234,7 @@
   {
     "codigo": "ABNT NBR NM ISO 3758:2010CANCELADA",
     "titulo": "Têxteis – Códigos de cuidado usando símbolos (ISO 3758:2005, IDT)",
+    "dataPublicacao": "2010-07-01",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "31",
     "status": "Cancelada em 11/03/2013Substituída por ABNT NBR NM ISO 3758:2013",
@@ -2059,6 +2246,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E01:2009CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez da corParte E01: Solidez da cor à água",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Cancelada em 01/04/2011Substituída por ABNT NBR ISO 105-E01:2011",
@@ -2070,6 +2258,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E02:2009CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez de corParte E02: Solidez da cor à água do mar",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Cancelada em 10/02/2014Substituída por ABNT NBR ISO 105-E02:2014",
@@ -2081,6 +2270,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E03:2009CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez da corParte E03: Solidez da cor à água colorada (água de piscina)",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 01/04/2011Substituída por ABNT NBR ISO 105-E03:2011",
@@ -2092,6 +2282,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E04:2009CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez da corParte E04: Solidez da cor ao suor",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Cancelada em 19/05/2014Substituída por ABNT NBR ISO 105-E04:2014",
@@ -2103,6 +2294,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E05:2009CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez da corParte E05: Solidez da cor ao manchamento: Ácido",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 30/03/2011Substituída por ABNT NBR ISO 105-E05:2011",
@@ -2114,6 +2306,7 @@
   {
     "codigo": "ABNT NBR ISO 105-E07:2009CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez da corParte E07: Solidez da cor ao manchamento: Água",
+    "dataPublicacao": "2009-03-11",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Cancelada em 29/03/2011Substituída por ABNT NBR ISO 105-E07:2011",
@@ -2125,6 +2318,7 @@
   {
     "codigo": "ABNT NBR 13841:2009CANCELADA",
     "titulo": "Artigos têxteis hospitalares - Tecido de gaze hidrófila purificada - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2009-02-06",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Cancelada em 02/12/2016Substituída por ABNT NBR 13841:2016",
@@ -2136,6 +2330,7 @@
   {
     "codigo": "ABNT NBR 13891:2008CANCELADA",
     "titulo": "Construção superior de calçado - Laminados sintéticos - Tomada do pedaço-de-prova e obtenção de corpos-de-prova",
+    "dataPublicacao": "2008-11-24",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "3",
     "status": "Cancelada em 21/08/2013Substituída por ABNT NBR 13891:2013",
@@ -2147,6 +2342,7 @@
   {
     "codigo": "ABNT NBR 14366:2008CANCELADA",
     "titulo": "Construção superior de calçado - Laminados sintéticos - Determinação da resistência ao rasgamento por agulha",
+    "dataPublicacao": "2008-11-24",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "3",
     "status": "Cancelada em 19/07/2016Substituída por ABNT NBR 14366:2016",
@@ -2158,6 +2354,7 @@
   {
     "codigo": "ABNT NBR 14822:2008CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da resistência à costura em ensaio dinâmico e estático de tração",
+    "dataPublicacao": "2008-11-24",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "4",
     "status": "Cancelada em 14/10/2016Substituída por ABNT NBR 14822:2016",
@@ -2169,6 +2366,7 @@
   {
     "codigo": "ABNT NBR 14823:2008CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da resistência do acabamento à fricção com lixa",
+    "dataPublicacao": "2008-11-24",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "3",
     "status": "Cancelada em 17/11/2015Substituída por ABNT NBR 14823:2015",
@@ -2180,6 +2378,7 @@
   {
     "codigo": "ABNT NBR 15642:2008CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Requisitos quanto ao uso em calçados",
+    "dataPublicacao": "2008-11-24",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "9",
     "status": "Cancelada em 31/01/2014Substituída por ABNT NBR 15642:2014",
@@ -2191,6 +2390,7 @@
   {
     "codigo": "ABNT NBR 15637-1:2008CANCELADA",
     "titulo": "Cintas têxteis para elevação de cargasParte 1: Cintas planas manufaturadas, com fitas tecidas com fios sintéticos de alta tenacidade formados por multifilamentos",
+    "dataPublicacao": "2008-11-03",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "24",
     "status": "Cancelada em 27/04/2010Substituída por ABNT NBR 15637-1:2008 Versão corrigida:2010",
@@ -2202,6 +2402,7 @@
   {
     "codigo": "ABNT NBR 15637-1:2008 Versão corrigida:2010CANCELADA",
     "titulo": "Cintas têxteis para elevação de cargasParte 1: Cintas planas manufaturadas, com fitas tecidas com fios sintéticos de alta tenacidade formados por multifilamentos",
+    "dataPublicacao": "2008-11-03",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "24",
     "status": "Cancelada em 16/05/2012Substituída por ABNT NBR 15637-1:2012",
@@ -2213,6 +2414,7 @@
   {
     "codigo": "ABNT NBR 14099:2008CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da espessura",
+    "dataPublicacao": "2008-09-15",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "2",
     "status": "Cancelada em 29/03/2016Substituída por ABNT NBR 14099:2016",
@@ -2224,6 +2426,7 @@
   {
     "codigo": "ABNT NBR 14186:2008CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos de poliuretano - Verificação do envelhecimento por hidrólise",
+    "dataPublicacao": "2008-09-15",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "3",
     "status": "Cancelada em 22/02/2013Substituída por ABNT NBR 14190:2013",
@@ -2235,6 +2438,7 @@
   {
     "codigo": "ABNT NBR 14554:2008CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da massa por unidade de área (gramatura)",
+    "dataPublicacao": "2008-09-15",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "2",
     "status": "Cancelada em 18/10/2016Substituída por ABNT NBR 14554:2016",
@@ -2246,6 +2450,7 @@
   {
     "codigo": "ABNT NBR 14558:2008CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da solidez da cor à luz natural, ao calor e ao calor após exposição à luz natural",
+    "dataPublicacao": "2008-09-15",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "7",
     "status": "Cancelada em 21/02/2013Substituída por ABNT NBR 14392:2013",
@@ -2257,6 +2462,7 @@
   {
     "codigo": "ABNT NBR 10588:2008CANCELADA",
     "titulo": "Tecidos planos - Determinação da densidade de fios",
+    "dataPublicacao": "2008-05-26",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Cancelada em 12/02/2015Substituída por ABNT NBR 10588:2015",
@@ -2268,6 +2474,7 @@
   {
     "codigo": "ABNT NBR 11758:2008CANCELADA",
     "titulo": "Máquina industrial extratadora de líquido para artigos têxteis",
+    "dataPublicacao": "2008-03-17",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "3",
     "status": "Cancelada em 08/08/2019",
@@ -2279,6 +2486,7 @@
   {
     "codigo": "ABNT NBR 15547:2007CANCELADA",
     "titulo": "Transportadores contínuos, transportadores de correia - Correias têxteis - Emendas permanentes",
+    "dataPublicacao": "2007-12-21",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "12",
     "status": "Cancelada em 30/09/2019Substituída por ABNT NBR 15547:2019",
@@ -2290,6 +2498,7 @@
   {
     "codigo": "ABNT NBR ISO 105-B02:2007CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez da corParte B02: Solidez da cor à luz artificial: Ensaio da lâmpada de desbotamento de arco de xenônio",
+    "dataPublicacao": "2007-12-10",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "19",
     "status": "Cancelada em 27/03/2019Substituída por ABNT NBR ISO 105-B02:2019",
@@ -2301,6 +2510,7 @@
   {
     "codigo": "ABNT NBR ISO 105-X12:2007CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez da corParte X 12: Solidez À fricção",
+    "dataPublicacao": "2007-09-24",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 28/03/2019Substituída por ABNT NBR ISO 105-X12:2019",
@@ -2312,6 +2522,7 @@
   {
     "codigo": "ABNT NBR 14367:2007CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Resistência do acabamento à fricção com tecido",
+    "dataPublicacao": "2007-06-18",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "5",
     "status": "Cancelada em 01/08/2014Substituída por ABNT NBR 14367:2014",
@@ -2323,6 +2534,7 @@
   {
     "codigo": "ABNT NBR 13433:2007CANCELADA",
     "titulo": "Artigos têxteis hospitalares - Determinação do pH em têxteis - Método de ensaio",
+    "dataPublicacao": "2007-05-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Cancelada em 30/05/2018Substituída por ABNT NBR 13433:2018",
@@ -2334,6 +2546,7 @@
   {
     "codigo": "ABNT NBR 14553:2007CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da resistência à continuação do rasgo",
+    "dataPublicacao": "2007-04-16",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "4",
     "status": "Cancelada em 29/11/2012Substituída por ABNT NBR 14553:2012",
@@ -2345,6 +2558,7 @@
   {
     "codigo": "ABNT NBR 14852:2007CANCELADA",
     "titulo": "Artigos têxteis hospitalares - Atadura gessada - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2007-03-05",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "8",
     "status": "Cancelada em 28/11/2017Substituída por ABNT NBR 14852:2017",
@@ -2356,6 +2570,7 @@
   {
     "codigo": "ABNT NBR ISO 3758:2006CANCELADA",
     "titulo": "Têxteis - Códigos de cuidado usando símbolos",
+    "dataPublicacao": "2006-12-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "26",
     "status": "Cancelada em 01/07/2010Substituída por ABNT NBR NM ISO 3758:2010",
@@ -2367,6 +2582,7 @@
   {
     "codigo": "ABNT NBR 15449:2006CANCELADA",
     "titulo": "Calçados - Laminados sintéticos - Determinação da resistência ao ataque microbiano",
+    "dataPublicacao": "2006-12-11",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "4",
     "status": "Cancelada em 27/08/2014Substituída por ABNT NBR 15275:2014",
@@ -2378,6 +2594,7 @@
   {
     "codigo": "ABNT NBR ISO 105-A01:2006CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez da corParte A01: Princípios gerais de ensaio",
+    "dataPublicacao": "2006-08-07",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "10",
     "status": "Cancelada em 02/01/2011Substituída por ABNT NBR ISO 105-A01:2011",
@@ -2389,6 +2606,7 @@
   {
     "codigo": "ABNT NBR ISO 105-C06:2006CANCELADA",
     "titulo": "Têxteis - Ensaios de solidez da corParte C06: Solidez da cor à lavagem doméstica e comercial",
+    "dataPublicacao": "2006-08-07",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Cancelada em 15/08/2010Substituída por ABNT NBR ISO 105-C06:2010",
@@ -2400,6 +2618,7 @@
   {
     "codigo": "ABNT NBR 14365:2006CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação do comportamento ao flexionamento contínuo",
+    "dataPublicacao": "2006-03-31",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "7",
     "status": "Cancelada em 13/03/2013Substituída por ABNT NBR 14365:2013",
@@ -2411,6 +2630,7 @@
   {
     "codigo": "ABNT NBR 15336:2006CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da resistênciaao rasgamento - Método Trouser",
+    "dataPublicacao": "2006-03-31",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "5",
     "status": "Cancelada em 22/10/2015Substituída por ABNT NBR 15336:2015",
@@ -2422,6 +2642,7 @@
   {
     "codigo": "ABNT NBR 15337:2006CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da resistência perpendicular às perfurações de agulhas",
+    "dataPublicacao": "2006-03-31",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "5",
     "status": "Cancelada em 05/09/2014Substituída por ABNT NBR 15337:2014",
@@ -2433,6 +2654,7 @@
   {
     "codigo": "ABNT NBR 15338:2006CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da solidez da cor à água e ao suor - Perspirômetro",
+    "dataPublicacao": "2006-03-31",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "7",
     "status": "Cancelada em 07/10/2013",
@@ -2444,6 +2666,7 @@
   {
     "codigo": "ABNT NBR 15292:2005CANCELADA",
     "titulo": "Artigos confeccionados - Vestuário de segurança de alta visibilidade",
+    "dataPublicacao": "2005-11-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "30",
     "status": "Cancelada em 08/05/2013Substituída por ABNT NBR 15292:2013",
@@ -2455,6 +2678,7 @@
   {
     "codigo": "ABNT NBR 8429:2005CANCELADA",
     "titulo": "Materisis têxteis - Emprego da escala de cinza para avaliação da transferência de cor em materiais têxteis",
+    "dataPublicacao": "2005-02-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "9",
     "status": "Cancelada em 07/08/2006Substituída por ABNT NBR ISO 105-A03:2006",
@@ -2466,6 +2690,7 @@
   {
     "codigo": "ABNT NBR 8430:2005CANCELADA",
     "titulo": "Materiais têxteis - Emprego da escala de cinza para avaliação da alteração de cor em materiais têxteis",
+    "dataPublicacao": "2005-02-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Cancelada em 28/04/2005Substituída por ABNT NBR 8430:2005 Versão Corrigida:2005",
@@ -2477,6 +2702,7 @@
   {
     "codigo": "ABNT NBR 8430:2005 Versão Corrigida:2005CANCELADA",
     "titulo": "Materiais têxteis - Emprego da escala de cinza para avaliação da alteração de cor em materiais têxteis",
+    "dataPublicacao": "2005-02-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Cancelada em 07/08/2006Substituída por ABNT NBR ISO 105-A02:2006",
@@ -2488,6 +2714,7 @@
   {
     "codigo": "ABNT NBR 14767:2001 Errata 1:2003CANCELADA",
     "titulo": "Artigo têxtil hospitalar - Compressa campo operatório - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2003-09-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "1",
     "status": "Cancelada",
@@ -2499,6 +2726,7 @@
   {
     "codigo": "ABNT NBR 14108:2003CANCELADA",
     "titulo": "Artigo têxtil hospitalar - Gaze em rolo - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2003-04-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 18/09/2017Substituída por ABNT NBR 14108:2017",
@@ -2510,6 +2738,7 @@
   {
     "codigo": "ABNT NBR 13843:2003CANCELADA",
     "titulo": "Artigo têxtil hospitalar - Compressa de gaze - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2003-03-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Cancelada em 05/02/2009Substituída por ABNT NBR 13843:2009",
@@ -2521,6 +2750,7 @@
   {
     "codigo": "ABNT NBR 13841:2002CANCELADA",
     "titulo": "Artigo têxtil hospitalar - Tecido de gaze hidrófila purificada - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2002-10-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Cancelada em 05/02/2009Substituída por ABNT NBR 13841:2009",
@@ -2532,6 +2762,7 @@
   {
     "codigo": "ABNT NBR 14852:2002CANCELADA",
     "titulo": "Artigos têxteis hospitalares - Atadura gessada - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2002-06-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Cancelada em 30/09/2003Substituída por ABNT NBR 14852:2002 Versão Corrigida:2003",
@@ -2543,6 +2774,7 @@
   {
     "codigo": "ABNT NBR 14852:2002 Versão Corrigida:2003CANCELADA",
     "titulo": "Artigos têxteis hospitalares - Atadura gessada - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2002-06-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "7",
     "status": "Cancelada em 05/03/2007Substituída por ABNT NBR 14852:2007",
@@ -2554,6 +2786,7 @@
   {
     "codigo": "ABNT NBR 14767:2001CANCELADA",
     "titulo": "Artigo têxtil hospitalar - Compressa campo operatório - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2001-11-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Cancelada em 30/09/2003Substituída por ABNT NBR 14767:2001 Versão Corrigida:2003",
@@ -2565,6 +2798,7 @@
   {
     "codigo": "ABNT NBR 14767:2001 Versão Corrigida:2003CANCELADA",
     "titulo": "Artigo têxtil hospitalar - Compressa campo operatório - Requisitos e métodos de ensaio",
+    "dataPublicacao": "2001-11-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Cancelada em 16/07/2009Substituída por ABNT NBR 14767:2009",
@@ -2576,6 +2810,7 @@
   {
     "codigo": "ABNT NBR 11912:2001CANCELADA",
     "titulo": "Materiais têxteis - Determinação da resistência à tração e alongamento de tecidos planos (tira)",
+    "dataPublicacao": "2001-08-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 28/10/2016Substituída por ABNT NBR 11912:2016",
@@ -2587,6 +2822,7 @@
   {
     "codigo": "ABNT NBR 14727:2001CANCELADA",
     "titulo": "Materiais têxteis - Determinação da resistência à tração e alongamento pelo ensaio Grab",
+    "dataPublicacao": "2001-08-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "5",
     "status": "Cancelada em 28/10/2016Substituída por ABNT NBR 14727:2016",
@@ -2598,6 +2834,7 @@
   {
     "codigo": "ABNT NBR 14553:2000CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da resistência à continuação do rasgo",
+    "dataPublicacao": "2000-07-31",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "4",
     "status": "Cancelada em 16/04/2007Substituída por ABNT NBR 14553:2007",
@@ -2609,6 +2846,7 @@
   {
     "codigo": "ABNT NBR 14554:2000CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da massa por unidade de área (gramatura)",
+    "dataPublicacao": "2000-07-31",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "2",
     "status": "Cancelada em 14/09/2008Substituída por ABNT NBR 14554:2008",
@@ -2620,6 +2858,7 @@
   {
     "codigo": "ABNT NBR 14558:2000CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da solidez da cor à luz natural, ao calor e ao calor após exposição à luz natural",
+    "dataPublicacao": "2000-07-31",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "4",
     "status": "Cancelada em 15/09/2008Substituída por ABNT NBR 14558:2008",
@@ -2631,6 +2870,7 @@
   {
     "codigo": "ABNT NBR 14365:1999CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Comportamento ao flexionamento contínuo",
+    "dataPublicacao": "1999-10-01",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "4",
     "status": "Cancelada em 31/03/2006Substituída por ABNT NBR 14365:2006",
@@ -2642,6 +2882,7 @@
   {
     "codigo": "ABNT NBR 14367:1999CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Resistência do acabamento à fricção com tecido",
+    "dataPublicacao": "1999-10-01",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "4",
     "status": "Cancelada em 18/06/2007Substituída por ABNT NBR 14367:2007",
@@ -2653,6 +2894,7 @@
   {
     "codigo": "ABNT NBR 14366:1999CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da resistência ao rasgamento por agulha",
+    "dataPublicacao": "1999-09-30",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "2",
     "status": "Cancelada em 23/11/2008Substituída por ABNT NBR 14366:2008",
@@ -2664,6 +2906,7 @@
   {
     "codigo": "ABNT NBR 14368:1999CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Resistência do acabamento à fricção com borracha",
+    "dataPublicacao": "1999-09-30",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "4",
     "status": "Cancelada em 23/11/2008Substituída por ABNT NBR 14368:2008",
@@ -2675,6 +2918,7 @@
   {
     "codigo": "ABNT NBR 14186:1998CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos de poliuretano - Verificação do envelhecimento por hidrólise",
+    "dataPublicacao": "1998-09-30",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "2",
     "status": "Cancelada em 15/09/2008Substituída por ABNT NBR 14186:2008",
@@ -2686,6 +2930,7 @@
   {
     "codigo": "ABNT NBR 14187:1998CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Verificação do envelhecimento por calor",
+    "dataPublicacao": "1998-09-30",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "2",
     "status": "Cancelada em 16/01/2013Substituída por ABNT NBR 15170:2013",
@@ -2697,6 +2942,7 @@
   {
     "codigo": "ABNT NBR 14099:1998CANCELADA",
     "titulo": "Construção superior do calçado - Laminados sintéticos - Determinação da espessura",
+    "dataPublicacao": "1998-05-29",
     "comite": "ABNT/CB-011 Couro, Calçados e Artefatos de Couro",
     "paginas": "2",
     "status": "Cancelada em 14/09/2008Substituída por ABNT NBR 14099:2008",
@@ -2708,6 +2954,7 @@
   {
     "codigo": "ABNT NBR 14056:1998CANCELADA",
     "titulo": "Artigo têxtil hospitalar - Atadura de crepom - Requisitos e métodos de ensaio",
+    "dataPublicacao": "1998-04-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 29/10/2002Substituída por ABNT NBR 14056:2002",
@@ -2719,6 +2966,7 @@
   {
     "codigo": "ABNT NBR 13433:1995CANCELADA",
     "titulo": "Artigos hospitalares - Determinação do pH de tecido - Método de ensaio",
+    "dataPublicacao": "1995-07-31",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "1",
     "status": "Cancelada em 27/05/2007Substituída por ABNT NBR 13433:2007",
@@ -2730,6 +2978,7 @@
   {
     "codigo": "ABNT NBR 13371:1995CANCELADA",
     "titulo": "Materiais têxteis - Determinação da espessura - Método de ensaio",
+    "dataPublicacao": "1995-05-31",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "4",
     "status": "Cancelada em 29/09/2005Substituída por ABNT NBR 13371:2005",
@@ -2741,6 +2990,7 @@
   {
     "codigo": "ABNT NBR 13383:1995CANCELADA",
     "titulo": "Materiais têxteis - Determinação da espessura de tecidos planos e de malhas - Método de ensaio",
+    "dataPublicacao": "1995-05-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 30/09/2005Substituída por ABNT NBR 13371:2005",
@@ -2752,6 +3002,7 @@
   {
     "codigo": "ABNT NBR 13353:1995CANCELADA",
     "titulo": "Tecido de algodão tingido (plano e de malha) - Determinação da densidade de neps aparentes - Método de ensaio",
+    "dataPublicacao": "1995-04-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "1",
     "status": "Cancelada em 09/10/2012",
@@ -2763,6 +3014,7 @@
   {
     "codigo": "ABNT NBR 13350:1995CANCELADA",
     "titulo": "Artigos têxteis hospitalares - Determinação da presença de amido - Método de ensaio",
+    "dataPublicacao": "1995-04-29",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Cancelada em 04/03/2007Substituída por ABNT NBR 13350:2007",
@@ -2774,6 +3026,7 @@
   {
     "codigo": "ABNT NBR 13217:1994CANCELADA",
     "titulo": "Materiais têxteis - Determinação da solidez de cor à luz - Iluminação à luz do dia - Método de ensaio",
+    "dataPublicacao": "1994-10-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Cancelada em 09/10/2012",
@@ -2785,6 +3038,7 @@
   {
     "codigo": "ABNT NBR 8719:1994CANCELADA",
     "titulo": "Símbolos de cuidado para conservação de artigos têxteis - Simbologia",
+    "dataPublicacao": "1994-05-31",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Cancelada em 31/03/2002Substituída por ABNT NBR 8719:1994 Versão Corrigida:2002",
@@ -2796,6 +3050,7 @@
   {
     "codigo": "ABNT NBR 8719:1994 Versão Corrigida:2002CANCELADA",
     "titulo": "Símbolos de cuidado para conservação de artigos têxteis - Simbologia",
+    "dataPublicacao": "1994-05-31",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "6",
     "status": "Cancelada em 29/12/2006Substituída por ABNT NBR ISO 3758:2006",
@@ -2807,6 +3062,7 @@
   {
     "codigo": "ABNT NBR 13143:1994CANCELADA",
     "titulo": "Máquinas e acessórios têxteis - Máquinas de malharia circulares - Diâmetros nominais - Padronização",
+    "dataPublicacao": "1994-05-30",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "2",
     "status": "Cancelada em 22/04/2014",
@@ -2818,6 +3074,7 @@
   {
     "codigo": "ABNT NBR 13144:1994CANCELADA",
     "titulo": "Máquinas e acessórios têxteis - Máquinas de malharia - Informações das placas de identificação - Padronização",
+    "dataPublicacao": "1994-05-30",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "3",
     "status": "Cancelada em 22/04/2014",
@@ -2829,6 +3086,7 @@
   {
     "codigo": "ABNT NBR 13153:1994CANCELADA",
     "titulo": "Máquinas e acessórios têxteis - Máquinas de malharia - Classificação",
+    "dataPublicacao": "1994-05-30",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "11",
     "status": "Cancelada em 22/04/2014",
@@ -2840,6 +3098,7 @@
   {
     "codigo": "ABNT NBR 13154:1994CANCELADA",
     "titulo": "Fibras de algodão - Determinação do comprimento (comprimento medido) e do índice de uniformidade - Método de ensaio",
+    "dataPublicacao": "1994-05-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Cancelada em 09/10/2012",
@@ -2851,6 +3110,7 @@
   {
     "codigo": "ABNT NBR 13106:1994CANCELADA",
     "titulo": "Arames para guarnições flexíveis de máquinas têxteis - Dimensões, formatos e seções - Padronização",
+    "dataPublicacao": "1994-03-30",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "3",
     "status": "Cancelada em 22/04/2014",
@@ -2862,6 +3122,7 @@
   {
     "codigo": "ABNT NBR 13108:1994CANCELADA",
     "titulo": "Máquinas e acessórios têxteis - Máquinas de malharia - Distâncias entre as agulhas - Padronização",
+    "dataPublicacao": "1994-03-30",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "5",
     "status": "Cancelada em 29/08/2016",
@@ -2873,6 +3134,7 @@
   {
     "codigo": "ABNT NBR 13112:1994CANCELADA",
     "titulo": "Materiais têxteis - Determinação da solidez de cor à ação de lavagem - Ensaio n°5 - Método de ensaio",
+    "dataPublicacao": "1994-03-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Cancelada em 29/04/2009Substituída por ABNT NBR ISO 105-C12:2009",
@@ -2884,6 +3146,7 @@
   {
     "codigo": "ABNT NBR 13118:1994CANCELADA",
     "titulo": "Máquinas e acessórios têxteis - Anéis para viajantes de encaixe vertical utilizados em filatórios e retorcedeiras - Dimensões - Padronização",
+    "dataPublicacao": "1994-03-30",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "2",
     "status": "Cancelada em 22/04/2014",
@@ -2895,6 +3158,7 @@
   {
     "codigo": "ABNT NBR 13119:1994CANCELADA",
     "titulo": "Máquinas e acessórios têxteis - Vasos cilíndricos para fitas prensadas - Dimensões - Padronização",
+    "dataPublicacao": "1994-03-30",
     "comite": "ABNT/CB-004 Máquinas e Equipamentos Mecânicos",
     "paginas": "2",
     "status": "Cancelada em 22/04/2014",
@@ -2906,6 +3170,7 @@
   {
     "codigo": "ABNT NBR 13097:1994CANCELADA",
     "titulo": "Materiais têxteis - Determinação da solidez de cor à ação de lavagem - Ensaio n° 1 - Método de ensaio",
+    "dataPublicacao": "1994-02-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 29/04/2009Substituída por ABNT NBR ISO 105-C07:2009",
@@ -2917,6 +3182,7 @@
   {
     "codigo": "ABNT NBR 13098:1994CANCELADA",
     "titulo": "Materiais têxteis - Determinação da solidez de cor à ação de lavagem - Ensaio n° 2 - Método de ensaio",
+    "dataPublicacao": "1994-02-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Cancelada em 16/08/2010Substituída por ABNT NBR ISO 105-C06:2010",
@@ -2928,6 +3194,7 @@
   {
     "codigo": "ABNT NBR 13099:1994CANCELADA",
     "titulo": "Materiais têxteis - Determinação da solidez de cor à ação de lavagem - Ensaio n° 4 - Método de ensaio",
+    "dataPublicacao": "1994-02-28",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 29/04/2009Substituída por ABNT NBR ISO 105-C10:2009",
@@ -2939,6 +3206,7 @@
   {
     "codigo": "ABNT NBR 13062:1994CANCELADA",
     "titulo": "Materiais têxteis - Determinação da solide de cor à ação de lavagem - Ensaio nº 3 - Método de ensaio",
+    "dataPublicacao": "1994-01-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "2",
     "status": "Cancelada em 25/09/2009Substituída por ABNT NBR ISO 105-C09:2009",
@@ -2950,6 +3218,7 @@
   {
     "codigo": "ABNT NBR 13041:1993CANCELADA",
     "titulo": "Nãotecido - Determinação da resistência à tração e alongamento - Método de ensaio",
+    "dataPublicacao": "1993-11-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 30/08/1996Substituída por ABNT NBR 13041:1993 Versão Corrigida:1996",
@@ -2961,6 +3230,7 @@
   {
     "codigo": "ABNT NBR 13041:1993 Versão Corrigida:1996CANCELADA",
     "titulo": "Nãotecido - Determinação da resistência à tração e alongamento - Método de ensaio",
+    "dataPublicacao": "1993-11-30",
     "comite": "ABNT/CB-017 Têxteis e do Vestuário",
     "paginas": "3",
     "status": "Cancelada em 30/03/2004Substituída por ABNT NBR 13041:2004",
