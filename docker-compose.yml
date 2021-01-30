@@ -1,7 +1,7 @@
 version: "3"
 services:
   # reverse proxy
-  reverse_proxy:
+  nginx:
     image: nginx:alpine
     #restart : always
     # maps config file into the proxy container
