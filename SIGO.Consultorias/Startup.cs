@@ -6,10 +6,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using SIGO.Common.Data;
 using SIGO.Consultorias.Data;
 using SIGO.Domain.Common;
 using SIGO.Domain.Consultorias;
+using Swashbuckle.AspNetCore.Filters;
 using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Text;
@@ -76,7 +78,18 @@ namespace SIGO.Consultorias
             services.AddControllers().AddXmlSerializerFormatters();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
-            services.AddSwaggerGen();
+            services.AddSwaggerGen(options =>
+            {
+                options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "JWT Authorization header using the Bearer scheme. Enter 'Bearer' [space] and then your token in the text input below. Example: 'Bearer 12345abcdef'",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+                options.OperationFilter<SecurityRequirementsOperationFilter>();
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

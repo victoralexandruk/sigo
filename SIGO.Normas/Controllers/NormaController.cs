@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SIGO.Domain.Common;
 using SIGO.Domain.Normas;
@@ -6,6 +7,7 @@ using System.Collections.Generic;
 
 namespace SIGO.Normas.Controllers
 {
+    [Authorize]
     [ApiController]
     [ApiVersion("1")]
     [Route("v{version:apiVersion}/[controller]")]
