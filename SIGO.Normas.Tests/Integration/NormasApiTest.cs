@@ -1,6 +1,9 @@
+using SIGO.Common;
+using SIGO.Domain.Common;
 using System;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -12,10 +15,17 @@ namespace SIGO.Normas.Tests.Integration
 
         public NormasApiTest()
         {
+            var token = TokenHelper.CreateToken(new AppUser
+            {
+                Username = "Test"
+            }, "wgGEl#XkIdkR");
+
             _httpClientNormas = new HttpClient()
             {
-                BaseAddress = new Uri("http://bluelake.brazilsouth.cloudapp.azure.com/sigo_normas/")
+                BaseAddress = new Uri("https://bluelake.brazilsouth.cloudapp.azure.com/sigo/normas/v1/")
             };
+            
+            _httpClientNormas.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
         }
 
         [Theory]

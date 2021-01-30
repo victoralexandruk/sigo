@@ -1,5 +1,5 @@
 const websiteUrl = "https://localhost:49159";
-// const websiteUrl = "http://bluelake.brazilsouth.cloudapp.azure.com/sigo/website";
+// const websiteUrl = "https://bluelake.brazilsouth.cloudapp.azure.com/sigo/website";
 
 /* api client ================================================================*/
 const apiUrls = {};
