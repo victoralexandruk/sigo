@@ -49,7 +49,7 @@ namespace SIGO.WebSite
             });
             #endregion
 
-            services.AddRazorPages();
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,6 +73,7 @@ namespace SIGO.WebSite
             {
                 ServeUnknownFileTypes = true
             });
+            app.UseFileServer(enableDirectoryBrowsing: true);
 
             app.UseRouting();
 
@@ -82,7 +83,7 @@ namespace SIGO.WebSite
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }

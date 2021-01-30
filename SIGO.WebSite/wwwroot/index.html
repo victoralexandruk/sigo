@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIGO - Sistema Integrado de Gestão e Operação</title>
+
+  <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/icomoon/style.css">
+  <link href="css/sigo.css" rel="stylesheet">
+</head>
+<body>
+  <div id="app" class="container d-flex h-100 p-3 mx-auto flex-column text-center" v-cloak>
+    <topbar></topbar>
+    <main role="main" class="inner cover">
+      <router-view></router-view>
+    </main>
+    <footer class="mastfoot mt-auto">
+      <div class="inner">
+        <p>Lightyear Corp.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Libs -->
+  <script src="libs/jquery-3.5.1.min.js"></script>
+  <script src="libs/bootstrap/popper.min.js"></script>
+  <script src="libs/bootstrap/bootstrap.min.js"></script>
+  <script src="libs/vue.js"></script>
+  <script src="libs/http-vue-loader/1.4.2/httpVueLoader.js"></script>
+  <script src="libs/vue-router.min.js"></script>
+  <script src="libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  <script src="libs/moment/2.26.0/moment.min.js"></script>
+
+  <!-- Main code -->
+  <script src="js/services.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
