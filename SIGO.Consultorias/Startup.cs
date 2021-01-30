@@ -11,7 +11,6 @@ using SIGO.Common.Data;
 using SIGO.Consultorias.Data;
 using SIGO.Domain.Common;
 using SIGO.Domain.Consultorias;
-using Swashbuckle.AspNetCore.Filters;
 using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Text;
@@ -80,15 +79,29 @@ namespace SIGO.Consultorias
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(options =>
             {
-                options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                options.AddSecurityDefinition("JwtToken", new OpenApiSecurityScheme
                 {
-                    Description = "JWT Authorization header using the Bearer scheme. Enter 'Bearer' [space] and then your token in the text input below. Example: 'Bearer 12345abcdef'",
-                    Name = "Authorization",
+                    Name = "Bearer",
+                    Description = "Specify the JWT authorization token.",
                     In = ParameterLocation.Header,
-                    Type = SecuritySchemeType.ApiKey,
-                    Scheme = "Bearer"
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT"
                 });
-                options.OperationFilter<SecurityRequirementsOperationFilter>();
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "JwtToken"
+                            }
+                        },
+                        new string[] { }
+                    }
+                });
             });
         }
 
