@@ -1,14 +1,18 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using SIGO.Common.Data;
 using SIGO.Consultorias.Data;
 using SIGO.Domain.Common;
 using SIGO.Domain.Consultorias;
 using System.Data.SqlClient;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace SIGO.Consultorias
 {
@@ -47,6 +51,28 @@ namespace SIGO.Consultorias
             });
             #endregion
 
+            #region Authentication
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                using (SHA256 sha256 = SHA256.Create())
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+                        ValidateLifetime = false,
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(sha256.ComputeHash(Encoding.UTF8.GetBytes(Configuration["Jwt:Secret"])))
+                    };
+                }
+            });
+            #endregion
+
             services.AddControllers().AddXmlSerializerFormatters();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
@@ -81,6 +107,17 @@ namespace SIGO.Consultorias
             });
 
             app.UseRouting();
+
+            // global cors policy
+            app.UseCors(options =>
+            {
+                options.SetIsOriginAllowed(_ => true)
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials();
+            });
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
