@@ -15,18 +15,32 @@ using System.Threading.Tasks;
 namespace SIGO.WebSite.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class UserController : ControllerBase
+    public class IndexController : ControllerBase
     {
         private readonly IConfiguration _config;
 
-        public UserController(IConfiguration config)
+        public IndexController(IConfiguration config)
         {
             _config = config;
         }
 
+        [HttpGet]
+        [Route("Info")]
+        public object Info()
+        {
+            return new
+            {
+                WebApi = new
+                {
+                    Normas = _config["WebApi:Normas"],
+                    Consultorias = _config["WebApi:Consultorias"]
+                }
+            };
+        }
+
         [AllowAnonymous]
-        [HttpPost("Login")]
+        [HttpPost]
+        [Route("Login")]
         public string Login(LoginInfo loginInfo)
         {
             using (SHA256 sha256 = SHA256.Create())

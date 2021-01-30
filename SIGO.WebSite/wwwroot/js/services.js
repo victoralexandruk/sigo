@@ -1,8 +1,8 @@
-const serverUrl = "https://localhost:49159";
-// const serverUrl = "http://bluelake.brazilsouth.cloudapp.azure.com/sigo";
+const websiteUrl = "https://localhost:49159";
+// const websiteUrl = "http://bluelake.brazilsouth.cloudapp.azure.com/sigo/website";
 
 /* api client ================================================================*/
-const apiUrl = serverUrl + "/api";
+const apiUrls = {};
 
 const api = {
   getToken: function () {
@@ -25,7 +25,7 @@ const api = {
     return new Promise(function (resolve, reject) {
       $.ajax({
         type: "POST",
-        url: serverUrl + '/user/login',
+        url: websiteUrl + '/login',
         dataType: "text",
         contentType: "application/json",
         data: JSON.stringify({username, password})
@@ -35,27 +35,41 @@ const api = {
       }).fail(reject);
     });
   },
+  getInfo: function () {
+    return this.ajax({
+      type: "GET",
+      url: websiteUrl + '/info',
+      dataType: "json"
+    });
+  },
+  /* Normas ========================================================= */
   getNormas: function () {
     return this.ajax({
       type: "GET",
-      url: apiUrl + '/norma',
+      url: apiUrls.normas + '/norma',
       dataType: "json"
     });
   },
   getNorma: function (id) {
     return this.ajax({
       type: "GET",
-      url: apiUrl + '/norma/' + id,
+      url: apiUrls.normas + '/norma/' + id,
       dataType: "json"
     });
   },
   saveNorma: function (norma) {
     return this.ajax({
       type: "POST",
-      url: apiUrl + '/norma',
+      url: apiUrls.normas + '/norma',
       dataType: "json",
       contentType: "application/json",
       data: JSON.stringify(norma)
     });
   }
 };
+
+api.getInfo().then(function (response) {
+  $.each(response.webApi, function (key, value) {
+    apiUrls[key] = value;
+  });
+});
