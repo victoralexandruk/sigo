@@ -3,7 +3,16 @@
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
       <h1 class="h2">{{traducao('Consultorias / Assessorias')}}</h1>
       <div class="btn-toolbar mb-2 mb-md-0">
-        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="icon-plus-circle"></i> {{traducao('Novo')}}</button>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <i class="input-group-text bg-white border-right-0 icon-search"></i>
+          </div>
+          <input type="text" class="form-control form-control-sm border-left-0" v-model="filter" placeholder="Pesquisar...">
+        </div>
+        <router-link to="/consultoria/0" class="btn btn-sm btn-outline-secondary ml-2">
+          <i class="icon-plus-circle"></i>
+          {{traducao('Novo')}}
+        </router-link>
       </div>
     </div>
     <div v-if="!consultorias" class="d-flex justify-content-center">
@@ -22,7 +31,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="consultoria in consultorias">
+          <tr v-for="consultoria in filteredConsultorias">
             <td class="align-middle">{{consultoria.tipo}}</td>
             <td class="align-middle">{{consultoria.nome}}</td>
             <td class="align-middle">{{consultoria.area}}</td>
@@ -40,8 +49,18 @@
 module.exports = {
   data: function () {
     return {
-      consultorias: null
+      consultorias: null,
+      filter: ''
     };
+  },
+  computed: {
+    filteredConsultorias: function () {
+      try {
+        return this.consultorias.filter(a => JSON.stringify(a).toLowerCase().indexOf(this.filter) !== -1);
+      } catch (e) {
+        return null;
+      }
+    }
   },
   methods: {
   },

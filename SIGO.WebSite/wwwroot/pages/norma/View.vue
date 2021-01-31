@@ -26,7 +26,7 @@
             </tr>
             <tr>
               <th>Data de Publicação</th>
-              <td>{{norma.dataPublicacao}}</td>
+              <td>{{moment(norma.dataPublicacao).format('DD/MM/YYYY')}}</td>
             </tr>
             <tr>
               <th>Comitê</th>

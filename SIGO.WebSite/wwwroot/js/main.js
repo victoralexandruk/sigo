@@ -15,6 +15,7 @@ Vue.mixin({
   },
   methods: {
     traducao: traducao,
+    moment: moment,
     carregarIdioma: function (idioma) {
       if (idioma) {
         store.idioma = idioma;
