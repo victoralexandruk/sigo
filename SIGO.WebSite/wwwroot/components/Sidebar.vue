@@ -5,32 +5,20 @@
         <li class="nav-item">
           <router-link to="/" class="nav-link">
             <i class="icon-home"></i>
-            Dashboard
+            {{traducao('Dashboard')}}
           </router-link>
         </li>
         <li class="nav-item">
           <router-link to="/norma" class="nav-link">
-            <i class="icon-file"></i>
-            Normas
+            <i class="icon-file-text"></i>
+            {{traducao('Normas')}}
           </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <router-link to="/consultoria" class="nav-link">
             <i class="icon-users"></i>
-            Customers
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="icon-bar-chart-2"></i>
-            Reports
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="icon-layers"></i>
-            Integrations
-          </a>
+            {{traducao('Consultorias / Assessorias')}}
+          </router-link>
         </li>
       </ul>
 
@@ -43,25 +31,25 @@
       <ul class="nav flex-column mb-2">
         <li class="nav-item">
           <a class="nav-link" href="#">
-            <i class="icon-file-text"></i>
+            <i class="icon-bar-chart-2"></i>
             Current month
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">
-            <i class="icon-file-text"></i>
+            <i class="icon-bar-chart-2"></i>
             Last quarter
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">
-            <i class="icon-file-text"></i>
+            <i class="icon-bar-chart-2"></i>
             Social engagement
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">
-            <i class="icon-file-text"></i>
+            <i class="icon-bar-chart-2"></i>
             Year-end sale
           </a>
         </li>

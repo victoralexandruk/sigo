@@ -4,6 +4,7 @@
       <header class="masthead mb-auto"></header>
       <main role="main" class="inner cover">
         <div class="card bg-dark form-signin">
+          <div v-if="alert" class="alert" :class="alert.class">{{alert.title}}</div>
           <h2 class="cover-heading mb-4">
             <i class="icon-sigo display-4"></i>
           </h2>
@@ -30,7 +31,8 @@ module.exports = {
   data: function () {
     return {
       username: '',
-      password: ''
+      password: '',
+      alert: null
     };
   },
   methods: {
@@ -38,6 +40,11 @@ module.exports = {
       api.login(this.username, this.password).then((response) => {
         if (response) {
           router.push(this.$route.query.redirect || { path: '/' });
+        } else {
+          this.alert = {
+            title: traducao('Usuário e/ou senha inválido(s)'),
+            class: "alert-warning"
+          };
         }
       });
     }

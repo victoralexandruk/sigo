@@ -35,11 +35,13 @@ const api = {
       $.ajax({
         type: "POST",
         url: websiteUrl + '/login',
-        dataType: "text",
+        dataType: "json",
         contentType: "application/json",
         data: JSON.stringify({username, password})
       }).done(function (response) {
-        localStorage.setItem('sigo_token', response);
+        if (response && response.token) {
+          localStorage.setItem('sigo_token', response.token);
+        }
         resolve(response);
       }).fail(reject);
     });

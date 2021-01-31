@@ -38,6 +38,8 @@ const router = new VueRouter({
       { path: '', component: httpVueLoader('pages/Home.vue'), meta: { requiresAuth: true } },
       { path: 'norma', component: httpVueLoader('pages/norma/List.vue') },
       { path: 'norma/:id', component: httpVueLoader('pages/norma/Edit.vue') },
+      { path: 'consultoria', component: httpVueLoader('pages/consultoria/List.vue') },
+      { path: 'consultoria/:id', component: httpVueLoader('pages/consultoria/Edit.vue') },
     ] },
   ],
   linkExactActiveClass: 'active'

@@ -20,10 +20,12 @@ namespace SIGO.WebSite.Controllers
     public class IndexController : ControllerBase
     {
         private readonly IConfiguration _config;
+        private readonly IRepository<AppUser> _userRepository;
 
-        public IndexController(IConfiguration config)
+        public IndexController(IConfiguration config, IRepository<AppUser> userRepository)
         {
             _config = config;
+            _userRepository = userRepository;
         }
 
         [HttpGet]
@@ -43,12 +45,17 @@ namespace SIGO.WebSite.Controllers
         [AllowAnonymous]
         [HttpPost]
         [Route("Login")]
-        public string Login(LoginInfo loginInfo)
+        public object Login(LoginInfo loginInfo)
         {
-            return TokenHelper.CreateToken(new AppUser
+            var user = _userRepository.GetAll().Where(u => u.Username == loginInfo.Username && u.Password == loginInfo.Password).FirstOrDefault();
+            if (user != null)
             {
-                Username = loginInfo.Username
-            }, _config["Jwt:Secret"]);
+                return new { Token = TokenHelper.CreateToken(user, _config["Jwt:Secret"]) };
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }
