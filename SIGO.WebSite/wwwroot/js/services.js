@@ -76,6 +76,30 @@ const api = {
       contentType: "application/json",
       data: JSON.stringify(norma)
     });
+  },
+  /* Consultorias ========================================================= */
+  getConsultorias: function () {
+    return this.ajax({
+      type: "GET",
+      url: apiUrls.consultorias + '/consultoria',
+      dataType: "json"
+    });
+  },
+  getConsultoria: function (id) {
+    return this.ajax({
+      type: "GET",
+      url: apiUrls.consultorias + '/consultoria/' + id,
+      dataType: "json"
+    });
+  },
+  saveConsultoria: function (consultoria) {
+    return this.ajax({
+      type: "POST",
+      url: apiUrls.consultorias + '/consultoria',
+      dataType: "json",
+      contentType: "application/json",
+      data: JSON.stringify(consultoria)
+    });
   }
 };
 

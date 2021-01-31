@@ -16,6 +16,10 @@
             <button type="submit" class="btn btn-lg btn-secondary btn-block mt-3">{{traducao('Entrar')}}</button>
           </form>
         </div>
+        <div class="card bg-dark form-signin mt-3 p-3">
+          <p class="mb-2">Use a conta de demonstração para fazer login:</p>
+          <p class="m-0">Usuário: <strong>demo</strong> / Senha: <strong>demo</strong></p>
+        </div>
       </main>
       <footer class="mastfoot mt-auto">
         <div class="inner">

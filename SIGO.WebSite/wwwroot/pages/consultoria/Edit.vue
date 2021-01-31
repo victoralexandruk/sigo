@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-      <h1 class="h2">{{traducao('Edit')}}</h1>
+      <h3>{{traducao('Editar')}}</h3>
       <div class="btn-toolbar mb-2 mb-md-0">
         <div class="btn-group mr-2">
           <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
@@ -13,6 +13,14 @@
         </button>
       </div>
     </div>
+    <div v-if="!consultoria" class="d-flex justify-content-center">
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div v-if="consultoria">
+      <pre>{{consultoria}}</pre>
+    </div>
   </div>
 </template>
 
@@ -20,9 +28,13 @@
 module.exports = {
   data: function () {
     return {
+      consultoria: null
     };
   },
   methods: {
+  },
+  created: function () {
+    api.getConsultoria(this.$route.params.id).then(consultoria => this.consultoria = consultoria);
   }
 }
 </script>
