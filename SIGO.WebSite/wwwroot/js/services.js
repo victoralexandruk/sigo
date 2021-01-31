@@ -1,5 +1,6 @@
-const websiteUrl = "https://localhost:49159";
+// const websiteUrl = "https://localhost:49159";
 // const websiteUrl = "https://bluelake.brazilsouth.cloudapp.azure.com/sigo/website";
+const websiteUrl = location.origin + location.pathname.replace(/\/$/, '');
 
 const apiUrls = {};
 
