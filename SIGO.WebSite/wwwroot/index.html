@@ -10,16 +10,8 @@
   <link href="css/sigo.css" rel="stylesheet">
 </head>
 <body>
-  <div id="app" class="container d-flex h-100 p-3 mx-auto flex-column text-center" v-cloak>
-    <topbar></topbar>
-    <main role="main" class="inner cover">
-      <router-view></router-view>
-    </main>
-    <footer class="mastfoot mt-auto">
-      <div class="inner">
-        <p>Lightyear Corp.</p>
-      </div>
-    </footer>
+  <div id="app" v-cloak>
+    <router-view></router-view>
   </div>
 
   <!-- Libs -->

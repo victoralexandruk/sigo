@@ -1,9 +1,18 @@
 const websiteUrl = "https://localhost:49159";
 // const websiteUrl = "https://bluelake.brazilsouth.cloudapp.azure.com/sigo/website";
 
-/* api client ================================================================*/
 const apiUrls = {};
 
+const auth = {
+  isLoggedIn: function () {
+    return localStorage.getItem('sigo_token') != null;
+  },
+  logout: function () {
+    localStorage.removeItem('sigo_token');
+  }
+};
+
+/* api client ================================================================*/
 const api = {
   getToken: function () {
     return new Promise(function (resolve, reject) {
