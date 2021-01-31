@@ -13,12 +13,14 @@ namespace SIGO.Common.Data
             {
                 switch (PropertyType.Name)
                 {
-                    case "int":
+                    case "Int32":
                         return "INT";
                     case "long":
                         return "BIGINT";
+                    case "DateTime":
+                        return "DATETIME2(7)";
                 }
-                return "NVARCHAR(max)";
+                return "NVARCHAR(MAX)";
             }
         }
     }

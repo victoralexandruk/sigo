@@ -22,7 +22,7 @@ namespace SIGO.Common.Data
             if (!TableExists(db, table))
             {
                 var columns = GetColumns<T>();
-                var sql = $@"CREATE TABLE {table} ([Id] [bigint] IDENTITY(1,1) NOT NULL, {string.Join(",", columns.Select(a => $"[{a.ColumnName}] {a.ColumnType}"))})";
+                var sql = $@"CREATE TABLE {table} ([Id] [bigint] IDENTITY(1,1) NOT NULL CONSTRAINT PK_{table} PRIMARY KEY, {string.Join(",", columns.Select(a => $"[{a.ColumnName}] {a.ColumnType}"))})";
                 db.Execute(sql);
                 if (!string.IsNullOrWhiteSpace(seedFilepath) && File.Exists(seedFilepath))
                 {
@@ -76,7 +76,7 @@ namespace SIGO.Common.Data
                     columns.Add(new ColumnMeta
                     {
                         PropertyName = field.Name,
-                        PropertyType = field.GetType(),
+                        PropertyType = field.PropertyType,
                         ColumnName = columnAttribute.Name ?? field.Name
                     });
                 }

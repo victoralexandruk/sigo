@@ -12,7 +12,76 @@
       </div>
     </div>
     <div v-if="norma">
-      <pre>{{norma}}</pre>
+      <h5>Resumo</h5>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <tbody>
+            <tr>
+              <th>Código</th>
+              <td>{{norma.codigo}}</td>
+            </tr>
+            <tr>
+              <th>Título</th>
+              <td>{{norma.titulo}}</td>
+            </tr>
+            <tr>
+              <th>Data de Publicação</th>
+              <td>{{norma.dataPublicacao}}</td>
+            </tr>
+            <tr>
+              <th>Comitê</th>
+              <td>{{norma.comite}}</td>
+            </tr>
+            <tr>
+              <th>Páginas</th>
+              <td>{{norma.paginas}}</td>
+            </tr>
+            <tr>
+              <th>Status</th>
+              <td>{{norma.status}}</td>
+            </tr>
+            <tr>
+              <th>Idioma</th>
+              <td>{{norma.idioma}}</td>
+            </tr>
+            <tr>
+              <th>Organismo</th>
+              <td>{{norma.organismo}}</td>
+            </tr>
+            <tr>
+              <th>Objetivo</th>
+              <td>{{norma.objetivo}}</td>
+            </tr>
+            <tr>
+              <th>Arquivo</th>
+              <td>{{norma.caminhoArquivo}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h5>Ações Planejadas</h5>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th class="w-75">Descrição</th>
+              <th>Responsável</th>
+              <th>Atualizado em</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-if="!norma.acoesPlanejadas.length">
+              <td colspan="3" class="font-weight-bold text-muted font-italic py-2">Sem ações planejadas</td>
+            </tr>
+            <tr v-for="acao in norma.acoesPlanejadas">
+              <td>{{acao.descricao}}</td>
+              <td>{{acao.responsavel}}</td>
+              <td>{{acao.dataAtualizacao}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- <pre>{{norma}}</pre> -->
     </div>
   </div>
 </template>

@@ -17,7 +17,7 @@
           <tr>
             <th>Código</th>
             <th>Título</th>
-            <th>Status</th>
+            <th class="text-center" style="width: 74px;">Em Vigor</th>
             <th></th>
           </tr>
         </thead>
@@ -25,10 +25,9 @@
           <tr v-for="norma in normas">
             <td class="align-middle">{{norma.codigo}}</td>
             <td class="align-middle">{{norma.titulo}}</td>
-            <td class="align-middle">{{norma.status}}</td>
+            <td class="align-middle text-center"><i class="font-weight-bold text-success" :class="{'icon-check': norma.status === 'Em Vigor'}"></i></td>
             <td class="align-middle text-right">
               <router-link :to="'/norma/' + norma.id" class="btn btn-sm btn-outline-secondary"><i class="icon-eye"></i></router-link>
-              <!-- <button type="button" class="btn btn-sm btn-outline-secondary"><i class="icon-eye"></i></button> -->
             </td>
           </tr>
         </tbody>

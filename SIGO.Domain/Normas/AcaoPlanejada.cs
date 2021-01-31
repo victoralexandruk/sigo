@@ -19,6 +19,6 @@ namespace SIGO.Domain.Normas
         public string Responsavel { get; set; }
 
         [Column]
-        public DateTime DataPublicacao { get; set; } = DateTime.Now;
+        public DateTime DataAtualizacao { get; set; } = DateTime.Now;
     }
 }
