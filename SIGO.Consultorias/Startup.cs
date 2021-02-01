@@ -113,8 +113,8 @@ namespace SIGO.Consultorias
 
             using (var db = new SqlConnection(Configuration.GetConnectionString("ConsultoriasConnection")))
             {
-                DataHelper.CreateTableIfNotExists<Empresa>(db, "Empresa");
-                DataHelper.CreateTableIfNotExists<Contrato>(db, "Contrato");
+                DataHelper.CreateTableIfNotExists<Empresa>(db, "Empresa", "empresas_seed.json");
+                DataHelper.CreateTableIfNotExists<Contrato>(db, "Contrato", "contratos_seed.json");
             }
 
             if (env.IsDevelopment())

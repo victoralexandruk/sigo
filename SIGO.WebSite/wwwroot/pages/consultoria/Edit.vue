@@ -34,7 +34,7 @@ module.exports = {
   methods: {
   },
   created: function () {
-    api.getEmpresa(this.$route.params.id).then(consultoria => this.consultoria = consultoria);
+    api.getContrato(this.$route.params.id).then(consultoria => this.consultoria = consultoria);
   }
 }
 </script>

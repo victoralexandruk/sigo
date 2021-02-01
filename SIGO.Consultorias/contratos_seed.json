@@ -1,0 +1,42 @@
+﻿[
+  {
+    "cnpj": "86021336000156",
+    "tipo": "Consultoria",
+    "dataInicio": "2020-02-01",
+    "dataTermino": "2022-02-01",
+    "area": "Jurídico",
+    "status": "Em Vigor"
+  },
+  {
+    "cnpj": "18601420000199",
+    "tipo": "Consultoria",
+    "dataInicio": "2020-02-01",
+    "dataTermino": "2022-02-01",
+    "area": "Jurídico",
+    "status": "Em Vigor"
+  },
+  {
+    "cnpj": "99225248000118",
+    "tipo": "Assessoria",
+    "dataInicio": "2020-02-01",
+    "dataTermino": "2022-02-01",
+    "area": "Marketing",
+    "status": "Em Vigor"
+  },
+  {
+    "cnpj": "89564450000110",
+    "tipo": "Consultoria",
+    "dataInicio": "2020-02-01",
+    "dataTermino": "2022-02-01",
+    "area": "Financeiro",
+    "status": "Em Vigor"
+  },
+  {
+    "cnpj": "33018979000184",
+    "tipo": "Assessoria",
+    "dataInicio": "2020-02-01",
+    "dataTermino": "2022-02-01",
+    "area": "Informática",
+    "status": "Em Vigor"
+  }
+]
