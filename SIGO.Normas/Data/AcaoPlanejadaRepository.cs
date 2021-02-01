@@ -50,6 +50,14 @@ namespace SIGO.Normas.Data
             }
         }
 
+        public void Delete(long id)
+        {
+            using (var db = new SqlConnection(_connectionString))
+            {
+                db.Execute("DELETE FROM AcaoPlanejada WHERE Id = @id", new { id });
+            }
+        }
+
         public IEnumerable<AcaoPlanejada> Search(IDictionary<string, object> where, bool strict = true)
         {
             using (var db = new SqlConnection(_connectionString))

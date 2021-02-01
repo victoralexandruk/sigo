@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using SIGO.Common.Data;
 using SIGO.Domain.Common;
 using SIGO.Domain.Consultorias;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
@@ -47,6 +48,11 @@ namespace SIGO.Consultorias.Data
                     model.Id = DataHelper.Insert(db, "Empresa", model);
                 }
             }
+        }
+
+        public void Delete(long id)
+        {
+            throw new NotImplementedException();
         }
 
         public IEnumerable<Empresa> Search(IDictionary<string, object> where, bool strict = true)

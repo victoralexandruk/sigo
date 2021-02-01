@@ -37,7 +37,7 @@
             <td class="align-middle">{{consultoria.tipo}}</td>
             <td class="align-middle">{{consultoria.area}}</td>
             <td class="align-middle">{{consultoria.cnpj}}</td>
-            <td class="align-middle">{{moment(consultoria.dataInicio).format('DD/MM/YY')}} - {{moment(consultoria.dataTermino).format('DD/MM/YY')}}</td>
+            <td class="align-middle">{{$moment(consultoria.dataInicio).format('DD/MM/YY')}} - {{$moment(consultoria.dataTermino).format('DD/MM/YY')}}</td>
             <td class="align-middle text-center"><i class="font-weight-bold text-success" :class="{'icon-check': consultoria.status === 'Em Vigor'}"></i></td>
             <td class="align-middle text-right">
               <router-link :to="'/consultoria/' + consultoria.id" class="btn btn-sm btn-outline-secondary"><i class="icon-edit-2"></i></router-link>
@@ -60,7 +60,7 @@ module.exports = {
   computed: {
     filteredConsultorias: function () {
       try {
-        return this.consultorias.filter(a => JSON.stringify(a).toLowerCase().indexOf(this.filter) !== -1);
+        return this.consultorias.filter(a => JSON.stringify(a).toLowerCase().indexOf(this.filter.toLowerCase()) !== -1);
       } catch (e) {
         return null;
       }

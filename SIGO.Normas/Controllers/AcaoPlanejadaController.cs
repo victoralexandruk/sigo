@@ -42,6 +42,14 @@ namespace SIGO.Normas.Controllers
             return _acaoPlanejadaRepository.GetById(id);
         }
 
+        [HttpDelete]
+        [Route("{id}")]
+        public IActionResult Delete(long id)
+        {
+            _acaoPlanejadaRepository.Delete(id);
+            return Ok();
+        }
+
         [HttpGet]
         [Route("search/{key}/{value}/{strict?}")]
         public IEnumerable<AcaoPlanejada> Search(string key, string value, bool strict = true)

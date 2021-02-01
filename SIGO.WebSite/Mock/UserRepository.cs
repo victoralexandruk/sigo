@@ -35,6 +35,11 @@ namespace SIGO.WebSite.Mock
             }
         }
 
+        public void Delete(long id)
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<AppUser> Search(IDictionary<string, object> where, bool strict = true)
         {
             throw new NotImplementedException();

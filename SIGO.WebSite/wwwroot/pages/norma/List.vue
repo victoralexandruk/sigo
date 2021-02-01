@@ -52,7 +52,7 @@ module.exports = {
   computed: {
     filteredNormas: function () {
       try {
-        return this.normas.filter(a => JSON.stringify(a).toLowerCase().indexOf(this.filter) !== -1);
+        return this.normas.filter(a => JSON.stringify(a).toLowerCase().indexOf(this.filter.toLowerCase()) !== -1);
       } catch (e) {
         return null;
       }

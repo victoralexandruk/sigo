@@ -22,6 +22,6 @@ namespace SIGO.Domain.Normas
         public string Responsavel { get; set; }
 
         [Column]
-        public DateTime DataAtualizacao { get; set; } = DateTime.Now;
+        public DateTime DataAtualizacao { get; set; } = DateTime.UtcNow;
     }
 }

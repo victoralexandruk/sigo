@@ -26,7 +26,7 @@
             </tr>
             <tr>
               <th>Data de Publicação</th>
-              <td>{{moment(norma.dataPublicacao).format('DD/MM/YYYY')}}</td>
+              <td>{{$moment(norma.dataPublicacao).format('DD/MM/YYYY')}}</td>
             </tr>
             <tr>
               <th>Comitê</th>
@@ -64,7 +64,7 @@
         <table class="table table-striped table-sm">
           <thead>
             <tr>
-              <th class="w-75">Descrição</th>
+              <th class="w-50">Descrição</th>
               <th>Responsável</th>
               <th>Atualizado em</th>
             </tr>
@@ -74,9 +74,9 @@
               <td colspan="3" class="font-weight-bold text-muted font-italic py-2">Sem ações planejadas</td>
             </tr>
             <tr v-for="acao in norma.acoesPlanejadas">
-              <td>{{acao.descricao}}</td>
-              <td>{{acao.responsavel}}</td>
-              <td>{{acao.dataAtualizacao}}</td>
+              <td class="align-middle">{{acao.descricao}}</td>
+              <td class="align-middle">{{acao.responsavel}}</td>
+              <td class="align-middle">{{$moment.utc(acao.dataAtualizacao).local().format('DD/MM/YYYY HH:mm')}}</td>
             </tr>
           </tbody>
         </table>

@@ -9,13 +9,14 @@ function traducao(key) {
   return store.localizerStrings[key] || key;
 }
 
+Vue.prototype.$moment = moment;
+
 Vue.mixin({
   data: function () {
     return store;
   },
   methods: {
     traducao: traducao,
-    moment: moment,
     carregarIdioma: function (idioma) {
       if (idioma) {
         store.idioma = idioma;
@@ -31,6 +32,7 @@ Vue.mixin({
 
 Vue.component('topbar', httpVueLoader('components/Topbar.vue'));
 Vue.component('sidebar', httpVueLoader('components/Sidebar.vue'));
+Vue.component('modal-acao-planejada', httpVueLoader('components/ModalAcaoPlanejada.vue'));
 
 const router = new VueRouter({
   routes: [

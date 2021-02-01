@@ -1,5 +1,3 @@
-// const websiteUrl = "https://localhost:49159";
-// const websiteUrl = "https://bluelake.brazilsouth.cloudapp.azure.com/sigo/website";
 const websiteUrl = location.origin + location.pathname.replace(/\/$/, '');
 
 const apiUrls = {};
@@ -76,6 +74,43 @@ const api = {
       dataType: "json",
       contentType: "application/json",
       data: JSON.stringify(norma)
+    });
+  },
+  getAcoesPlanejadas: function () {
+    return this.ajax({
+      type: "GET",
+      url: apiUrls.normas + '/acaoplanejada',
+      dataType: "json"
+    });
+  },
+  getAcaoPlanejada: function (id) {
+    return this.ajax({
+      type: "GET",
+      url: apiUrls.normas + '/acaoplanejada/' + id,
+      dataType: "json"
+    });
+  },
+  saveAcaoPlanejada: function (acaoPlanejada) {
+    return this.ajax({
+      type: "POST",
+      url: apiUrls.normas + '/acaoplanejada',
+      dataType: "json",
+      contentType: "application/json",
+      data: JSON.stringify(acaoPlanejada)
+    });
+  },
+  deleteAcaoPlanejada: function (id) {
+    return this.ajax({
+      type: "DELETE",
+      url: apiUrls.normas + '/acaoplanejada/' + id,
+      // dataType: "json"
+    });
+  },
+  searchAcoesPlanejadas: function (key, value, strict) {
+    return this.ajax({
+      type: "GET",
+      url: apiUrls.normas + '/acaoplanejada/search/' + key + '/' + value + '/' + strict,
+      dataType: "json"
     });
   },
   /* Consultorias ========================================================= */
