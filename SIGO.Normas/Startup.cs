@@ -30,6 +30,7 @@ namespace SIGO.Normas
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IRepository<Norma>, NormaRepository>();
+            services.AddTransient<IRepository<AcaoPlanejada>, AcaoPlanejadaRepository>();
 
             #region ApiVersion
             // Api Versioning
