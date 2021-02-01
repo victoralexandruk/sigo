@@ -23,7 +23,10 @@ namespace SIGO.Domain.Consultorias
 
         [Column]
         public string Area { get; set; }
-        
+
+        [Column]
+        public string Status { get; set; }
+
         public Empresa Empresa { get; set; }
     }
 }
