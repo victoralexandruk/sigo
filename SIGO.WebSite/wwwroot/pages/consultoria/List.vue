@@ -9,10 +9,10 @@
           </div>
           <input type="text" class="form-control form-control-sm border-left-0" v-model="filter" placeholder="Pesquisar...">
         </div>
-        <router-link to="/consultoria/0" class="btn btn-sm btn-outline-secondary ml-2">
+        <!-- <router-link to="/consultoria/0" class="btn btn-sm btn-outline-secondary ml-2">
           <i class="icon-plus-circle"></i>
           {{traducao('Novo')}}
-        </router-link>
+        </router-link> -->
       </div>
     </div>
     <div v-if="!consultorias" class="d-flex justify-content-center">
