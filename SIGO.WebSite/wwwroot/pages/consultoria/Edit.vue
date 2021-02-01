@@ -132,8 +132,19 @@ module.exports = {
       $('#modalAcaoPlanejada').modal('show');
     },
     deleteAcaoPlanejada: function (id) {
-      api.deleteAcaoPlanejada(id).then(() => {
-        this.loadAcoesPlanejadas();
+      swal({
+        title: "Excluir?",
+        text: "Esta ação não poderá ser desfeita.",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      }).then((willDelete) => {
+        if (willDelete) {
+          api.deleteAcaoPlanejada(id).then(() => {
+            this.loadAcoesPlanejadas();
+            notyf.success('Ação planejada excluída!');
+          });
+        }
       });
     }
   },

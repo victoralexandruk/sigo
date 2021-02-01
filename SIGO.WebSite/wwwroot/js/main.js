@@ -5,6 +5,15 @@ const store = {
   company: 'IndTexBr'
 };
 
+// Create an instance of Notyf
+var notyf = new Notyf({
+  position: {
+    x: 'right',
+    y: 'top'
+  },
+  dismissible: true
+});
+
 function traducao(key) {
   return store.localizerStrings[key] || key;
 }

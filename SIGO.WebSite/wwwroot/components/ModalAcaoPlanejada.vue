@@ -60,6 +60,7 @@ module.exports = {
       api.saveAcaoPlanejada(this.acaoPlanejada).then((response) => {
         this.$emit('save', response);
         $('#modalAcaoPlanejada').modal('hide');
+        notyf.success('Ação planejada salva!');
       });
     }
   },
