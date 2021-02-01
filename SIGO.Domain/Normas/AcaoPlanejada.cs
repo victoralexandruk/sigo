@@ -13,6 +13,9 @@ namespace SIGO.Domain.Normas
         public string CodigoNorma { get; set; }
 
         [Column]
+        public long IdContrato { get; set; }
+
+        [Column]
         public string Descricao { get; set; }
 
         [Column]

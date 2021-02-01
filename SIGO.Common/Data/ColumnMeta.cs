@@ -15,7 +15,7 @@ namespace SIGO.Common.Data
                 {
                     case "Int32":
                         return "INT";
-                    case "long":
+                    case "Int64":
                         return "BIGINT";
                     case "DateTime":
                         return "DATETIME2(7)";

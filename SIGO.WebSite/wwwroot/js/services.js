@@ -79,27 +79,27 @@ const api = {
     });
   },
   /* Consultorias ========================================================= */
-  getConsultorias: function () {
+  getEmpresas: function () {
     return this.ajax({
       type: "GET",
-      url: apiUrls.consultorias + '/consultoria',
+      url: apiUrls.consultorias + '/empresa',
       dataType: "json"
     });
   },
-  getConsultoria: function (id) {
+  getEmpresa: function (id) {
     return this.ajax({
       type: "GET",
-      url: apiUrls.consultorias + '/consultoria/' + id,
+      url: apiUrls.consultorias + '/empresa/' + id,
       dataType: "json"
     });
   },
-  saveConsultoria: function (consultoria) {
+  saveEmpresa: function (empresa) {
     return this.ajax({
       type: "POST",
-      url: apiUrls.consultorias + '/consultoria',
+      url: apiUrls.consultorias + '/empresa',
       dataType: "json",
       contentType: "application/json",
-      data: JSON.stringify(consultoria)
+      data: JSON.stringify(empresa)
     });
   }
 };

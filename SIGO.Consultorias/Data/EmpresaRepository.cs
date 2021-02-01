@@ -10,52 +10,52 @@ using System.Linq;
 
 namespace SIGO.Consultorias.Data
 {
-    public class ConsultoriaRepository : IRepository<Consultoria>
+    public class EmpresaRepository : IRepository<Empresa>
     {
         private readonly string _connectionString;
 
-        public ConsultoriaRepository(IConfiguration config)
+        public EmpresaRepository(IConfiguration config)
         {
             _connectionString = config.GetConnectionString("ConsultoriasConnection");
         }
 
-        public IEnumerable<Consultoria> GetAll()
+        public IEnumerable<Empresa> GetAll()
         {
             using (var db = new SqlConnection(_connectionString))
             {
-                return db.Query<Consultoria>("SELECT * FROM Consultoria WITH(NOLOCK)");
+                return db.Query<Empresa>("SELECT * FROM Empresa WITH(NOLOCK)");
             }
         }
 
-        public Consultoria GetById(long id)
+        public Empresa GetById(long id)
         {
             using (var db = new SqlConnection(_connectionString))
             {
-                var consultoria = db.QueryFirstOrDefault<Consultoria>("SELECT * FROM Consultoria WITH(NOLOCK) WHERE Id = @id", new { id });
-                return consultoria;
+                var empresa = db.QueryFirstOrDefault<Empresa>("SELECT * FROM Empresa WITH(NOLOCK) WHERE Id = @id", new { id });
+                return empresa;
             }
         }
 
-        public void Save(Consultoria model)
+        public void Save(Empresa model)
         {
             using (var db = new SqlConnection(_connectionString))
             {
                 if (model.Id > 0)
                 {
-                    DataHelper.Update(db, "Consultoria", model);
+                    DataHelper.Update(db, "Empresa", model);
                 }
                 else
                 {
-                    model.Id = DataHelper.Insert(db, "Consultoria", model);
+                    model.Id = DataHelper.Insert(db, "Empresa", model);
                 }
             }
         }
 
-        public IEnumerable<Consultoria> Search(IDictionary<string, object> where, bool strict = true)
+        public IEnumerable<Empresa> Search(IDictionary<string, object> where, bool strict = true)
         {
             using (var db = new SqlConnection(_connectionString))
             {
-                return DataHelper.Search<Consultoria>(db, "Consultoria", where, strict);
+                return DataHelper.Search<Empresa>(db, "Empresa", where, strict);
             }
         }
     }

@@ -65,7 +65,7 @@ module.exports = {
   methods: {
   },
   created: function () {
-    api.getConsultorias().then(consultorias => this.consultorias = consultorias);
+    api.getEmpresas().then(consultorias => this.consultorias = consultorias);
   }
 }
 </script>

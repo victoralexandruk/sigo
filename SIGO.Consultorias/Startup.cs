@@ -29,7 +29,7 @@ namespace SIGO.Consultorias
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IRepository<Consultoria>, ConsultoriaRepository>();
+            services.AddTransient<IRepository<Empresa>, EmpresaRepository>();
 
             #region ApiVersion
             // Api Versioning
@@ -112,7 +112,8 @@ namespace SIGO.Consultorias
 
             using (var db = new SqlConnection(Configuration.GetConnectionString("ConsultoriasConnection")))
             {
-                DataHelper.CreateTableIfNotExists<Consultoria>(db, "Consultoria");
+                DataHelper.CreateTableIfNotExists<Empresa>(db, "Empresa");
+                DataHelper.CreateTableIfNotExists<Contrato>(db, "Contrato");
             }
 
             if (env.IsDevelopment())
