@@ -25,16 +25,20 @@
         <thead>
           <tr>
             <th>Tipo</th>
-            <th>Nome</th>
             <th>Área(s)</th>
+            <th>CNPJ</th>
+            <th>Vigência</th>
+            <th class="text-center" style="width: 74px;">Em Vigor</th>
             <th></th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="consultoria in filteredConsultorias">
             <td class="align-middle">{{consultoria.tipo}}</td>
-            <td class="align-middle">{{consultoria.nome}}</td>
             <td class="align-middle">{{consultoria.area}}</td>
+            <td class="align-middle">{{consultoria.cnpj}}</td>
+            <td class="align-middle">{{moment(consultoria.dataInicio).format('DD/MM/YY')}} - {{moment(consultoria.dataTermino).format('DD/MM/YY')}}</td>
+            <td class="align-middle text-center"><i class="font-weight-bold text-success" :class="{'icon-check': consultoria.status === 'Em Vigor'}"></i></td>
             <td class="align-middle text-right">
               <router-link :to="'/consultoria/' + consultoria.id" class="btn btn-sm btn-outline-secondary"><i class="icon-edit-2"></i></router-link>
             </td>
