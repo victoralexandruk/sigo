@@ -30,6 +30,10 @@ namespace SIGO.Consultorias.Data
             using (var db = new SqlConnection(_connectionString))
             {
                 var contrato = db.QueryFirstOrDefault<Contrato>("SELECT * FROM Contrato WITH(NOLOCK) WHERE Id = @id", new { id });
+                if (!string.IsNullOrEmpty(contrato?.Cnpj))
+                {
+                    contrato.Empresa = db.QueryFirstOrDefault<Empresa>("SELECT * FROM Empresa WITH(NOLOCK) WHERE Cnpj = @Cnpj", new { Cnpj = contrato.Cnpj });
+                }
                 return contrato;
             }
         }
