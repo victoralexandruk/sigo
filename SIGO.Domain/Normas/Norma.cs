@@ -22,7 +22,7 @@ namespace SIGO.Domain.Normas
         public string Comite { get; set; }
 
         [Column]
-        public int Paginas { get; set; }
+        public int? Paginas { get; set; }
 
         [Column]
         public string Status { get; set; }
