@@ -8,52 +8,52 @@ using System.Data.SqlClient;
 
 namespace SIGO.Consultorias.Data
 {
-    public class EmpresaRepository : IRepository<Empresa>
+    public class ContratoRepository : IRepository<Contrato>
     {
         private readonly string _connectionString;
 
-        public EmpresaRepository(IConfiguration config)
+        public ContratoRepository(IConfiguration config)
         {
             _connectionString = config.GetConnectionString("ConsultoriasConnection");
         }
 
-        public IEnumerable<Empresa> GetAll()
+        public IEnumerable<Contrato> GetAll()
         {
             using (var db = new SqlConnection(_connectionString))
             {
-                return db.Query<Empresa>("SELECT * FROM Empresa WITH(NOLOCK)");
+                return db.Query<Contrato>("SELECT * FROM Contrato WITH(NOLOCK)");
             }
         }
 
-        public Empresa GetById(long id)
+        public Contrato GetById(long id)
         {
             using (var db = new SqlConnection(_connectionString))
             {
-                var empresa = db.QueryFirstOrDefault<Empresa>("SELECT * FROM Empresa WITH(NOLOCK) WHERE Id = @id", new { id });
-                return empresa;
+                var contrato = db.QueryFirstOrDefault<Contrato>("SELECT * FROM Contrato WITH(NOLOCK) WHERE Id = @id", new { id });
+                return contrato;
             }
         }
 
-        public void Save(Empresa model)
+        public void Save(Contrato model)
         {
             using (var db = new SqlConnection(_connectionString))
             {
                 if (model.Id > 0)
                 {
-                    DataHelper.Update(db, "Empresa", model);
+                    DataHelper.Update(db, "Contrato", model);
                 }
                 else
                 {
-                    model.Id = DataHelper.Insert(db, "Empresa", model);
+                    model.Id = DataHelper.Insert(db, "Contrato", model);
                 }
             }
         }
 
-        public IEnumerable<Empresa> Search(IDictionary<string, object> where, bool strict = true)
+        public IEnumerable<Contrato> Search(IDictionary<string, object> where, bool strict = true)
         {
             using (var db = new SqlConnection(_connectionString))
             {
-                return DataHelper.Search<Empresa>(db, "Empresa", where, strict);
+                return DataHelper.Search<Contrato>(db, "Contrato", where, strict);
             }
         }
     }

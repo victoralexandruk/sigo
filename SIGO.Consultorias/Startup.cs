@@ -30,6 +30,7 @@ namespace SIGO.Consultorias
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IRepository<Empresa>, EmpresaRepository>();
+            services.AddTransient<IRepository<Contrato>, ContratoRepository>();
 
             #region ApiVersion
             // Api Versioning

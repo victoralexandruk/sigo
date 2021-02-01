@@ -79,6 +79,29 @@ const api = {
     });
   },
   /* Consultorias ========================================================= */
+  getContratos: function () {
+    return this.ajax({
+      type: "GET",
+      url: apiUrls.consultorias + '/contrato',
+      dataType: "json"
+    });
+  },
+  getContrato: function (id) {
+    return this.ajax({
+      type: "GET",
+      url: apiUrls.consultorias + '/contrato/' + id,
+      dataType: "json"
+    });
+  },
+  saveContrato: function (contrato) {
+    return this.ajax({
+      type: "POST",
+      url: apiUrls.consultorias + '/contrato',
+      dataType: "json",
+      contentType: "application/json",
+      data: JSON.stringify(contrato)
+    });
+  },
   getEmpresas: function () {
     return this.ajax({
       type: "GET",
