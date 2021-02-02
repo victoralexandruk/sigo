@@ -23,7 +23,7 @@ namespace SIGO.Normas.Data
         {
             using (var db = new SqlConnection(_connectionString))
             {
-                return db.Query<Norma>("SELECT * FROM Norma WITH(NOLOCK)");
+                return db.Query<Norma>("SELECT N.*, (SELECT COUNT(*) FROM AcaoPlanejada AP WITH(NOLOCK) WHERE AP.CodigoNorma = N.Codigo) QtdAcoesPlanejadas FROM Norma N WITH(NOLOCK)");
             }
         }
 

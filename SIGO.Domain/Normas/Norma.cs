@@ -38,7 +38,9 @@ namespace SIGO.Domain.Normas
 
         [Column]
         public string CaminhoArquivo { get; set; }
-        
+
+        public int? QtdAcoesPlanejadas { get; set; }
+
         public IEnumerable<AcaoPlanejada> AcoesPlanejadas { get; set; }
     }
 }
