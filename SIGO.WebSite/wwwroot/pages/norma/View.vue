@@ -3,7 +3,7 @@
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
       <h4 v-if="norma">{{norma.codigo}}</h4>
       <div class="btn-toolbar mb-2 mb-md-0">
-        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="icon-link"></i> {{traducao('Abrir')}}</button>
+        <a v-if="urlNorma" :href="urlNorma" class="btn btn-sm btn-outline-secondary" target="_blank"><i class="icon-link"></i> {{traducao('Abrir')}}</a>
       </div>
     </div>
     <div v-if="!norma" class="d-flex justify-content-center">
@@ -90,13 +90,21 @@
 module.exports = {
   data: function () {
     return {
-      norma: null
+      norma: null,
+      urlNorma: null
     };
   },
   methods: {
   },
   created: function () {
-    api.getNorma(this.$route.params.id).then(norma => this.norma = norma);
+    api.getNorma(this.$route.params.id).then(norma => {
+      this.norma = norma;
+      if (norma && norma.tipoArmazenamento === "blob") {
+        api.downloadArquivoNorma(norma.id).then(url => this.urlNorma = url);
+      } else {
+        this.urlNorma = norma.caminhoArquivo;
+      }
+    });
   }
 }
 </script>

@@ -78,25 +78,36 @@ const api = {
   },
   uploadArquivoNorma: function (id, file) {
     var formData = new FormData();
-    formData.append('file', file);
+    formData.append('formFile', file);
     return this.ajax({
       type: "POST",
-      url: apiUrls.normas + '/norma/uploadfile/' + id,
+      url: apiUrls.normas + '/norma/arquivo/' + id,
       contentType: false,
       processData: false,
       data: formData
     });
   },
   downloadArquivoNorma: function (id) {
+    return new Promise((resolve, reject) => {
+      this.ajax({
+        type: "GET",
+        url: apiUrls.normas + '/norma/arquivo/' + id,
+        cache: false,
+        xhr: function() {
+          var xhr = new XMLHttpRequest();
+          xhr.responseType= 'blob';
+          return xhr;
+        }
+      }).then(function (response) {
+        var url = window.URL || window.webkitURL;
+        resolve(url.createObjectURL(response));
+      }).catch(reject);
+    });
+  },
+  deleteArquivoNorma: function (id) {
     return this.ajax({
-      type: "GET",
-      url: apiUrls.normas + '/norma/downloadfile/' + id,
-      //cache:false,
-      xhr: function() {
-        var xhr = new XMLHttpRequest();
-        xhr.responseType= 'blob';
-        return xhr;
-      }
+      type: "DELETE",
+      url: apiUrls.normas + '/norma/arquivo/' + id
     });
   },
   getAcoesPlanejadas: function () {
