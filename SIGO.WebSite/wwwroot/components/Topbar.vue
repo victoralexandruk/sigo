@@ -25,7 +25,7 @@
     <!-- <input class="form-control form-control-dark w-100 d-none d-md-block" type="text" placeholder="Search" aria-label="Search"> -->
     <ul class="navbar-nav px-3 d-none d-md-block">
       <li class="nav-item text-nowrap">
-        <a class="nav-link" href="#" @click.prevent="logout()">{{traducao('Logout')}}</a>
+        <a class="nav-link" href="#" @click.prevent="logout()"><i class="icon-log-out"></i> {{traducao('Logout')}}</a>
       </li>
     </ul>
   </nav>
