@@ -23,6 +23,7 @@
             <th>Código</th>
             <th>Título</th>
             <th class="text-center" style="width: 74px;">Em Vigor</th>
+            <th class="text-center" style="width: 82px;">Qtd. Ações</th>
             <th></th>
           </tr>
         </thead>
@@ -31,6 +32,7 @@
             <td class="align-middle">{{norma.codigo}}</td>
             <td class="align-middle">{{norma.titulo}}</td>
             <td class="align-middle text-center"><i class="font-weight-bold text-success" :class="{'icon-check': norma.status === 'Em Vigor'}"></i></td>
+            <td class="align-middle text-center">{{norma.qtdAcoesPlanejadas}}</td>
             <td class="align-middle text-right">
               <router-link :to="'/norma/' + norma.id" class="btn btn-sm btn-outline-secondary"><i class="icon-eye"></i></router-link>
             </td>
