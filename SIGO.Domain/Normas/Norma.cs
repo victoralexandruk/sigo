@@ -37,6 +37,12 @@ namespace SIGO.Domain.Normas
         public string Objetivo { get; set; }
 
         [Column]
+        public string TipoArmazenamento { get; set; }
+
+        [Column]
+        public string TipoArquivo { get; set; }
+        
+        [Column]
         public string CaminhoArquivo { get; set; }
 
         public int? QtdAcoesPlanejadas { get; set; }
