@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="login">
-    <div class="container d-flex h-100 p-3 mx-auto flex-column text-center">
+    <div class="container d-flex h-100 p-3 mx-auto flex-column text-center" style="z-index: 1;">
       <header class="masthead mb-auto"></header>
       <main role="main" class="inner cover">
         <div class="card bg-dark form-signin">
@@ -75,11 +75,23 @@ module.exports = {
   -webkit-box-pack: center;
   justify-content: center;
   color: #fff;
-  box-shadow: inset 0 0 10rem 5rem rgba(0, 0, 0, 0.9);
+  /* box-shadow: inset 0 0 10rem 5rem rgba(0, 0, 0, 0.9); */
   overflow: auto;
   height: 100%;
+  background-size: cover;
   background-image: url("../images/pexels-adrien-olichon-2387532.jpg");
   background-color: #333;
+}
+
+.login::before {
+  content: '';
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .cover-container {
