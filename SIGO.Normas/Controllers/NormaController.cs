@@ -60,7 +60,7 @@ namespace SIGO.Normas.Controllers
         }
 
         [HttpPost]
-        [Route("UploadFile/{id}")]
+        [Route("arquivo/{id}")]
         public async Task<IActionResult> UploadFile(long id, IFormFile formFile)
         {
             var model = _normaRepository.GetById(id);
@@ -81,7 +81,7 @@ namespace SIGO.Normas.Controllers
         }
 
         [HttpDelete]
-        [Route("DeleteFile/{id}")]
+        [Route("arquivo/{id}")]
         public async Task<IActionResult> DeleteFile(long id)
         {
             var model = _normaRepository.GetById(id);
@@ -98,7 +98,7 @@ namespace SIGO.Normas.Controllers
         }
 
         [HttpGet]
-        [Route("DownloadFile/{id}")]
+        [Route("arquivo/{id}")]
         public async Task<IActionResult> DownloadFile(long id)
         {
             var model = _normaRepository.GetById(id);

@@ -76,6 +76,29 @@ const api = {
       data: JSON.stringify(norma)
     });
   },
+  uploadArquivoNorma: function (id, file) {
+    var formData = new FormData();
+    formData.append('file', file);
+    return this.ajax({
+      type: "POST",
+      url: apiUrls.normas + '/norma/uploadfile/' + id,
+      contentType: false,
+      processData: false,
+      data: formData
+    });
+  },
+  downloadArquivoNorma: function (id) {
+    return this.ajax({
+      type: "GET",
+      url: apiUrls.normas + '/norma/downloadfile/' + id,
+      //cache:false,
+      xhr: function() {
+        var xhr = new XMLHttpRequest();
+        xhr.responseType= 'blob';
+        return xhr;
+      }
+    });
+  },
   getAcoesPlanejadas: function () {
     return this.ajax({
       type: "GET",
