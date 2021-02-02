@@ -57,6 +57,7 @@ stages:
           cat > docker-compose.env << 'EOL'
           ConnectionStrings__NormasConnection=$(ConnectionStrings.NormasConnection)
           ConnectionStrings__ConsultoriasConnection=$(ConnectionStrings.ConsultoriasConnection)
+          ConnectionStrings__BlobStorage=$(ConnectionStrings.BlobStorage)
           EOL
     - task: CopyFilesOverSSH@0
       inputs:
