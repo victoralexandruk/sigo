@@ -36,12 +36,6 @@
 
 <script>
 module.exports = {
-  methods: {
-    logout: function () {
-      auth.logout();
-      router.push('/login');
-    }
-  }
 }
 </script>
 

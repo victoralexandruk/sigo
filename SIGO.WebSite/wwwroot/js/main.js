@@ -45,6 +45,10 @@ Vue.mixin({
       }).fail(function () {
         store.localizerStrings = {};
       });
+    },
+    logout: function () {
+      auth.logout();
+      router.push('/login');
     }
   }
 });
