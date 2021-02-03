@@ -22,7 +22,8 @@ namespace SIGO.Common
                     Subject = new ClaimsIdentity(new Claim[]
                     {
                         new Claim(ClaimTypes.Name, user.Username),
-                        new Claim(ClaimTypes.Role, ""),
+                        new Claim(ClaimTypes.Role, user.Role),
+                        new Claim(ClaimTypes.GivenName, user.GivenName),
                         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
                     }),
                     Expires = DateTime.UtcNow.AddDays(7),

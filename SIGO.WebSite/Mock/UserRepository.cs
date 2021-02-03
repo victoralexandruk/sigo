@@ -9,7 +9,7 @@ namespace SIGO.WebSite.Mock
     {
         private static readonly AppUser[] Users = new[]
         {
-            new AppUser { Id = 1, Username = "demo", Password = "demo" }
+            new AppUser { Id = 1, Username = "demo", Password = "demo", GivenName = "Demo User", Role = "admin" }
         };
 
         public IEnumerable<AppUser> GetAll()
