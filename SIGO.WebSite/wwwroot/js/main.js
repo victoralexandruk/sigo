@@ -24,6 +24,16 @@ Vue.mixin({
   data: function () {
     return store;
   },
+  computed: {
+    tokenData: function () {
+      var token = localStorage.getItem('sigo_token');
+      try {
+        return JSON.parse(atob(token.split('.')[1]));
+      } catch (e) {
+        return null;
+      }
+    }
+  },
   methods: {
     traducao: traducao,
     carregarIdioma: function (idioma) {
