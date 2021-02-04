@@ -2,7 +2,7 @@ const store = {
   localizerStrings: {},
   idioma: 'pt-br',
   idiomasDisponiveis: ['pt-br', 'en'],
-  company: 'IndTexBr'
+  company: 'IndTexBr - Indústria Têxtil do Brasil SA'
 };
 
 // Create an instance of Notyf
