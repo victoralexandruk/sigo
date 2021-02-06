@@ -14,8 +14,15 @@ namespace SIGO.Normas.Data
 
         public NormaStorage(IConfiguration config)
         {
-            var blobServiceClient = new BlobServiceClient(config.GetConnectionString("BlobStorage"));
-            _blobContainerClient = blobServiceClient.GetBlobContainerClient("normas");
+            try
+            {
+                var blobServiceClient = new BlobServiceClient(config.GetConnectionString("BlobStorage"));
+                _blobContainerClient = blobServiceClient.GetBlobContainerClient("normas");
+            }
+            catch (Exception)
+            {
+                /* TODO: LOG */
+            }
         }
 
         public async Task UploadFileAsync(string fileName, Stream fileStream)

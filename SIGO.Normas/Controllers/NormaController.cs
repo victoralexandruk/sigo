@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using SIGO.Domain.Common;
 using SIGO.Domain.Normas;
 using SIGO.Normas.Data;
+using Swashbuckle.AspNetCore.Annotations;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
@@ -28,6 +29,7 @@ namespace SIGO.Normas.Controllers
             _normaStorage = normaStorage;
         }
 
+        [SwaggerOperation(Summary = "Salva os detalhes de uma norma")]
         [HttpPost]
         public Norma Post(Norma model)
         {
@@ -35,12 +37,14 @@ namespace SIGO.Normas.Controllers
             return model;
         }
 
+        [SwaggerOperation(Summary = "Obtém lista com todas as normas")]
         [HttpGet]
         public IEnumerable<Norma> Get()
         {
             return _normaRepository.GetAll();
         }
 
+        [SwaggerOperation(Summary = "Obtém norma pelo id")]
         [HttpGet]
         [Route("{id}")]
         public Norma Get(long id)
@@ -48,6 +52,7 @@ namespace SIGO.Normas.Controllers
             return _normaRepository.GetById(id);
         }
 
+        [SwaggerOperation(Summary = "Lista normas que o campo {key} contenha o valor {value}")]
         [HttpGet]
         [Route("search/{key}/{value}/{strict?}")]
         public IEnumerable<Norma> Search(string key, string value, bool strict = true)
@@ -59,6 +64,7 @@ namespace SIGO.Normas.Controllers
             return _normaRepository.Search(where, strict);
         }
 
+        [SwaggerOperation(Summary = "Salva arquivo pelo id da norma")]
         [HttpPost]
         [Route("arquivo/{id}")]
         public async Task<IActionResult> UploadFile(long id, IFormFile formFile)
@@ -80,6 +86,7 @@ namespace SIGO.Normas.Controllers
             return Ok();
         }
 
+        [SwaggerOperation(Summary = "Exclui arquivo pelo id da norma")]
         [HttpDelete]
         [Route("arquivo/{id}")]
         public async Task<IActionResult> DeleteFile(long id)
@@ -97,6 +104,7 @@ namespace SIGO.Normas.Controllers
             return Ok();
         }
 
+        [SwaggerOperation(Summary = "Obtém arquivo pelo id da norma")]
         [HttpGet]
         [Route("arquivo/{id}")]
         public async Task<IActionResult> DownloadFile(long id)

@@ -81,6 +81,7 @@ namespace SIGO.Normas
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(options =>
             {
+                options.EnableAnnotations();
                 options.AddSecurityDefinition("JwtToken", new OpenApiSecurityScheme
                 {
                     Name = "Bearer",

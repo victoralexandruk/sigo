@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SIGO.Domain.Common;
 using SIGO.Domain.Consultorias;
+using Swashbuckle.AspNetCore.Annotations;
 using System.Collections.Generic;
 
 namespace SIGO.Consultorias.Controllers
@@ -22,6 +23,7 @@ namespace SIGO.Consultorias.Controllers
             _contratoRepository = contratoRepository;
         }
 
+        [SwaggerOperation(Summary = "Salva um contrato")]
         [HttpPost]
         public Contrato Post(Contrato model)
         {
@@ -29,12 +31,14 @@ namespace SIGO.Consultorias.Controllers
             return model;
         }
 
+        [SwaggerOperation(Summary = "Obtém lista com todos os contratos")]
         [HttpGet]
         public IEnumerable<Contrato> Get()
         {
             return _contratoRepository.GetAll();
         }
 
+        [SwaggerOperation(Summary = "Obtém contrato pelo id")]
         [HttpGet]
         [Route("{id}")]
         public Contrato Get(long id)
@@ -42,6 +46,7 @@ namespace SIGO.Consultorias.Controllers
             return _contratoRepository.GetById(id);
         }
 
+        [SwaggerOperation(Summary = "Lista contratos que o campo {key} contenha o valor {value}")]
         [HttpGet]
         [Route("search/{key}/{value}/{strict?}")]
         public IEnumerable<Contrato> Search(string key, string value, bool strict = true)

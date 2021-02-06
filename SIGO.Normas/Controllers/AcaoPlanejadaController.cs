@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SIGO.Domain.Common;
 using SIGO.Domain.Normas;
+using Swashbuckle.AspNetCore.Annotations;
 using System.Collections.Generic;
 
 namespace SIGO.Normas.Controllers
@@ -22,6 +23,7 @@ namespace SIGO.Normas.Controllers
             _acaoPlanejadaRepository = acaoPlanejadaRepository;
         }
 
+        [SwaggerOperation(Summary = "Salva uma ação planejada")]
         [HttpPost]
         public AcaoPlanejada Post(AcaoPlanejada model)
         {
@@ -29,12 +31,14 @@ namespace SIGO.Normas.Controllers
             return model;
         }
 
+        [SwaggerOperation(Summary = "Obtém lista com todas as ações planejadas")]
         [HttpGet]
         public IEnumerable<AcaoPlanejada> Get()
         {
             return _acaoPlanejadaRepository.GetAll();
         }
 
+        [SwaggerOperation(Summary = "Obtém ação planejada pelo id")]
         [HttpGet]
         [Route("{id}")]
         public AcaoPlanejada Get(long id)
@@ -42,6 +46,7 @@ namespace SIGO.Normas.Controllers
             return _acaoPlanejadaRepository.GetById(id);
         }
 
+        [SwaggerOperation(Summary = "Exclui ação planejada pelo id")]
         [HttpDelete]
         [Route("{id}")]
         public IActionResult Delete(long id)
@@ -50,6 +55,7 @@ namespace SIGO.Normas.Controllers
             return Ok();
         }
 
+        [SwaggerOperation(Summary = "Lista ações planejadas que o campo {key} contenha o valor {value}")]
         [HttpGet]
         [Route("search/{key}/{value}/{strict?}")]
         public IEnumerable<AcaoPlanejada> Search(string key, string value, bool strict = true)
