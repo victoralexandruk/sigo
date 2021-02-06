@@ -75,7 +75,10 @@ namespace SIGO.Consultorias
             });
             #endregion
 
-            services.AddControllers().AddXmlSerializerFormatters();
+            services.AddControllers(options =>
+            {
+                options.RespectBrowserAcceptHeader = true;
+            }).AddXmlSerializerFormatters().AddXmlDataContractSerializerFormatters();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(options =>
